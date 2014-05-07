@@ -141,6 +141,10 @@ Discarded input sections
                 0x00000000        0x0 build\SerialMonitorLCD.o
  .text._Z10LCDbuftestv
                 0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.timeOfLastEvent
+                0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.timeOfLastEvent2
+                0x00000000        0x0 build\SerialMonitorLCD.o
  .bss.sTime     0x00000000        0x0 build\SerialMonitorLCD.o
  .bss.lTime     0x00000000        0x0 build\SerialMonitorLCD.o
  .bss.eTime     0x00000000        0x0 build\SerialMonitorLCD.o
@@ -727,7 +731,7 @@ LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x16ce
+.text           0x00000000     0x17a2
  *(.vectors)
  .vectors       0x00000000       0x68 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
                 0x00000000                __vectors
@@ -831,172 +835,172 @@ LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  *(.text.*)
  .text._Z41__static_initialization_and_destruction_0ii
                 0x000004ea       0x82 build\SerialMonitorLCD.o
- .text._GLOBAL__D_lcd_key
+ .text._GLOBAL__D_timeOfLastEvent
                 0x0000056c        0xe build\SerialMonitorLCD.o
- .text._GLOBAL__I_lcd_key
+ .text._GLOBAL__I_timeOfLastEvent
                 0x0000057a        0xe build\SerialMonitorLCD.o
  .text._Z16read_LCD_buttonsv
                 0x00000588       0x60 build\SerialMonitorLCD.o
                 0x00000588                read_LCD_buttons()
  .text.setup    0x000005e8       0x60 build\SerialMonitorLCD.o
                 0x000005e8                setup
- .text.loop     0x00000648      0x252 build\SerialMonitorLCD.o
+ .text.loop     0x00000648      0x326 build\SerialMonitorLCD.o
                 0x00000648                loop
  .text._ZN13LiquidCrystal11pulseEnableEv
-                0x0000089a       0x42 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x0000089a                LiquidCrystal::pulseEnable()
+                0x0000096e       0x42 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x0000096e                LiquidCrystal::pulseEnable()
  .text._ZN13LiquidCrystal10write8bitsEh
-                0x000008dc       0x6c D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x000008dc                LiquidCrystal::write8bits(unsigned char)
+                0x000009b0       0x6c D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x000009b0                LiquidCrystal::write8bits(unsigned char)
  .text._ZN13LiquidCrystal10write4bitsEh
-                0x00000948       0x6c D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000948                LiquidCrystal::write4bits(unsigned char)
+                0x00000a1c       0x6c D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000a1c                LiquidCrystal::write4bits(unsigned char)
  .text._ZN13LiquidCrystal4sendEhh
-                0x000009b4       0x52 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x000009b4                LiquidCrystal::send(unsigned char, unsigned char)
+                0x00000a88       0x52 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000a88                LiquidCrystal::send(unsigned char, unsigned char)
  .text._ZN13LiquidCrystal5writeEh
-                0x00000a06        0xc D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000a06                LiquidCrystal::write(unsigned char)
+                0x00000ada        0xc D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000ada                LiquidCrystal::write(unsigned char)
  .text._ZN13LiquidCrystal7commandEh
-                0x00000a12        0x8 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000a12                LiquidCrystal::command(unsigned char)
+                0x00000ae6        0x8 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000ae6                LiquidCrystal::command(unsigned char)
  .text._ZN13LiquidCrystal5blinkEv
-                0x00000a1a       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000a1a                LiquidCrystal::blink()
+                0x00000aee       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000aee                LiquidCrystal::blink()
  .text._ZN13LiquidCrystal7noBlinkEv
-                0x00000a2e       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000a2e                LiquidCrystal::noBlink()
+                0x00000b02       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000b02                LiquidCrystal::noBlink()
  .text._ZN13LiquidCrystal6cursorEv
-                0x00000a3e       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000a3e                LiquidCrystal::cursor()
+                0x00000b12       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000b12                LiquidCrystal::cursor()
  .text._ZN13LiquidCrystal8noCursorEv
-                0x00000a52       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000a52                LiquidCrystal::noCursor()
+                0x00000b26       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000b26                LiquidCrystal::noCursor()
  .text._ZN13LiquidCrystal7displayEv
-                0x00000a62       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000a62                LiquidCrystal::display()
+                0x00000b36       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000b36                LiquidCrystal::display()
  .text._ZN13LiquidCrystal9setCursorEhh
-                0x00000a76       0x5e D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000a76                LiquidCrystal::setCursor(unsigned char, unsigned char)
+                0x00000b4a       0x5e D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000b4a                LiquidCrystal::setCursor(unsigned char, unsigned char)
  .text._ZN13LiquidCrystal5clearEv
-                0x00000ad4       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000ad4                LiquidCrystal::clear()
+                0x00000ba8       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000ba8                LiquidCrystal::clear()
  .text._ZN13LiquidCrystal5beginEhhh
-                0x00000ae4       0xde D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000ae4                LiquidCrystal::begin(unsigned char, unsigned char, unsigned char)
+                0x00000bb8       0xde D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000bb8                LiquidCrystal::begin(unsigned char, unsigned char, unsigned char)
  .text._ZN13LiquidCrystal4initEhhhhhhhhhhhh
-                0x00000bc2       0x8e D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000bc2                LiquidCrystal::init(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+                0x00000c96       0x8e D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000c96                LiquidCrystal::init(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
  .text._ZN13LiquidCrystalC1Ehhhhhh
-                0x00000c50       0x72 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00000c50                LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+                0x00000d24       0x72 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00000d24                LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
  .text._Z11serialEventv
-                0x00000cc2        0x2 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00000cc2                serialEvent()
+                0x00000d96        0x2 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x00000d96                serialEvent()
  .text.__vector_18
-                0x00000cc4       0x76 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00000cc4                __vector_18
+                0x00000d98       0x76 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x00000d98                __vector_18
  .text._Z14serialEventRunv
-                0x00000d3a       0x26 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00000d3a                serialEventRun()
+                0x00000e0e       0x26 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x00000e0e                serialEventRun()
  .text.__vector_19
-                0x00000d60       0x76 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00000d60                __vector_19
+                0x00000e34       0x76 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x00000e34                __vector_19
  .text._ZN14HardwareSerial5beginEm
-                0x00000dd6      0x10e D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00000dd6                HardwareSerial::begin(unsigned long)
+                0x00000eaa      0x10e D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x00000eaa                HardwareSerial::begin(unsigned long)
  .text._ZN14HardwareSerial9availableEv
-                0x00000ee4       0x22 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00000ee4                HardwareSerial::available()
+                0x00000fb8       0x22 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x00000fb8                HardwareSerial::available()
  .text._ZN14HardwareSerial4peekEv
-                0x00000f06       0x40 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00000f06                HardwareSerial::peek()
+                0x00000fda       0x40 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x00000fda                HardwareSerial::peek()
  .text._ZN14HardwareSerial4readEv
-                0x00000f46       0x52 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00000f46                HardwareSerial::read()
+                0x0000101a       0x52 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x0000101a                HardwareSerial::read()
  .text._ZN14HardwareSerial5flushEv
-                0x00000f98       0x20 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00000f98                HardwareSerial::flush()
+                0x0000106c       0x20 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x0000106c                HardwareSerial::flush()
  .text._ZN14HardwareSerial5writeEh
-                0x00000fb8       0x80 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00000fb8                HardwareSerial::write(unsigned char)
+                0x0000108c       0x80 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x0000108c                HardwareSerial::write(unsigned char)
  .text._GLOBAL__I_rx_buffer
-                0x00001038       0xac D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
- .text.main     0x000010e4       0x1e D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(main.cpp.o)
-                0x000010e4                main
+                0x0000110c       0xac D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+ .text.main     0x000011b8       0x1e D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(main.cpp.o)
+                0x000011b8                main
  .text._ZN5Print5writeEPKhj
-                0x00001102       0x54 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(Print.cpp.o)
-                0x00001102                Print::write(unsigned char const*, unsigned int)
+                0x000011d6       0x54 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(Print.cpp.o)
+                0x000011d6                Print::write(unsigned char const*, unsigned int)
  .text._ZN5Print5writeEPKc
-                0x00001156       0x38 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(Print.cpp.o)
-                0x00001156                Print::write(char const*)
+                0x0000122a       0x38 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(Print.cpp.o)
+                0x0000122a                Print::write(char const*)
  .text._ZN5Print5printEPKc
-                0x0000118e        0x6 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(Print.cpp.o)
-                0x0000118e                Print::print(char const*)
+                0x00001262        0x6 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(Print.cpp.o)
+                0x00001262                Print::print(char const*)
  .text.__vector_16
-                0x00001194       0x90 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
-                0x00001194                __vector_16
- .text.millis   0x00001224       0x1c D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
-                0x00001224                millis
- .text.micros   0x00001240       0x4c D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
-                0x00001240                micros
- .text.delay    0x0000128c       0x4c D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
-                0x0000128c                delay
+                0x00001268       0x90 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
+                0x00001268                __vector_16
+ .text.millis   0x000012f8       0x1c D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
+                0x000012f8                millis
+ .text.micros   0x00001314       0x4c D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
+                0x00001314                micros
+ .text.delay    0x00001360       0x4c D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
+                0x00001360                delay
  .text.delayMicroseconds
-                0x000012d8       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
-                0x000012d8                delayMicroseconds
- .text.init     0x000012ec       0x76 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
-                0x000012ec                init
+                0x000013ac       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
+                0x000013ac                delayMicroseconds
+ .text.init     0x000013c0       0x76 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
+                0x000013c0                init
  .text.analogRead
-                0x00001362       0x44 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring_analog.c.o)
-                0x00001362                analogRead
- .text.pinMode  0x000013a6       0x7e D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring_digital.c.o)
-                0x000013a6                pinMode
+                0x00001436       0x44 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring_analog.c.o)
+                0x00001436                analogRead
+ .text.pinMode  0x0000147a       0x7e D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring_digital.c.o)
+                0x0000147a                pinMode
  .text.turnOffPWM
-                0x00001424       0x5a D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring_digital.c.o)
+                0x000014f8       0x5a D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring_digital.c.o)
  .text.digitalWrite
-                0x0000147e       0x66 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring_digital.c.o)
-                0x0000147e                digitalWrite
+                0x00001552       0x66 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring_digital.c.o)
+                0x00001552                digitalWrite
  .text._ZN6String12changeBufferEj
-                0x000014e4       0x34 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
-                0x000014e4                String::changeBuffer(unsigned int)
+                0x000015b8       0x34 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
+                0x000015b8                String::changeBuffer(unsigned int)
  .text._ZN6String7reserveEj
-                0x00001518       0x38 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
-                0x00001518                String::reserve(unsigned int)
+                0x000015ec       0x38 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
+                0x000015ec                String::reserve(unsigned int)
  .text._ZN6String10invalidateEv
-                0x00001550       0x24 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
-                0x00001550                String::invalidate()
+                0x00001624       0x24 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
+                0x00001624                String::invalidate()
  .text._ZN6String4copyEPKcj
-                0x00001574       0x42 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
-                0x00001574                String::copy(char const*, unsigned int)
+                0x00001648       0x42 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
+                0x00001648                String::copy(char const*, unsigned int)
  .text._ZN6StringC1EPKc
-                0x000015b6       0x34 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
-                0x000015b6                String::String(char const*)
+                0x0000168a       0x34 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
+                0x0000168a                String::String(char const*)
  .text._ZN6StringD1Ev
-                0x000015ea        0xc D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
-                0x000015ea                String::~String()
- .text.libgcc   0x000015f6       0x44 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
-                0x000015f6                __udivmodsi4
- .text.libgcc   0x0000163a        0xc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
-                0x0000163e                __tablejump__
-                0x0000163a                __tablejump2__
- .text.libgcc   0x00001646       0x38 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
-                0x00001646                __prologue_saves__
- .text.libgcc   0x0000167e       0x36 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
-                0x0000167e                __epilogue_restores__
-                0x000016b4                . = ALIGN (0x2)
+                0x000016be        0xc D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
+                0x000016be                String::~String()
+ .text.libgcc   0x000016ca       0x44 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x000016ca                __udivmodsi4
+ .text.libgcc   0x0000170e        0xc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+                0x00001712                __tablejump__
+                0x0000170e                __tablejump2__
+ .text.libgcc   0x0000171a       0x38 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x0000171a                __prologue_saves__
+ .text.libgcc   0x00001752       0x36 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x00001752                __epilogue_restores__
+                0x00001788                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000016b4        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x000016b4                exit
-                0x000016b4                _exit
+ .fini9         0x00001788        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00001788                exit
+                0x00001788                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x000016b4       0x16 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
-                0x000016b4                __do_global_dtors
+ .fini6         0x00001788       0x16 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+                0x00001788                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -1009,100 +1013,104 @@ LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000016ca        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .fini0         0x0000179e        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x000016ce                _etext = .
+                0x000017a2                _etext = .
 
-.data           0x00800100       0x96 load address 0x000016ce
+.data           0x00800100       0x9c load address 0x000017a2
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
- .data          0x00800100       0x6f build\SerialMonitorLCD.o
- .data          0x0080016f        0x6 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00800171                __malloc_heap_start
-                0x00800173                __malloc_heap_end
-                0x0080016f                __malloc_margin
+ .data          0x00800100       0x74 build\SerialMonitorLCD.o
+ .data          0x00800174        0x6 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800176                __malloc_heap_start
+                0x00800178                __malloc_heap_end
+                0x00800174                __malloc_margin
  *(.data*)
  .data.analog_reference
-                0x00800175        0x1 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring_analog.c.o)
-                0x00800175                analog_reference
+                0x0080017a        0x1 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring_analog.c.o)
+                0x0080017a                analog_reference
  *(.rodata)
  *(.rodata*)
  .rodata._ZTV13LiquidCrystal
-                0x00800176        0x8 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
-                0x00800176                vtable for LiquidCrystal
+                0x0080017b        0x8 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x0080017b                vtable for LiquidCrystal
  .rodata._ZZN13LiquidCrystal9setCursorEhhE3C.3
-                0x0080017e        0x8 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
+                0x00800183        0x8 D:\arduino\Projects\SerialMonitorLCD\build\/lib_uno_16.a(LiquidCrystal.cpp.o)
  .rodata._ZTV14HardwareSerial
-                0x00800186       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00800186                vtable for HardwareSerial
+                0x0080018b       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x0080018b                vtable for HardwareSerial
  *(.gnu.linkonce.d*)
-                0x00800196                . = ALIGN (0x2)
-                0x00800196                _edata = .
-                0x00800196                PROVIDE (__data_end, .)
+                0x0080019c                . = ALIGN (0x2)
+ *fill*         0x0080019b        0x1 00
+                0x0080019c                _edata = .
+                0x0080019c                PROVIDE (__data_end, .)
 
-.bss            0x00800196       0xf1
-                0x00800196                PROVIDE (__bss_start, .)
+.bss            0x0080019c       0xf5
+                0x0080019c                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.lcd_key   0x00800196        0x2 build\SerialMonitorLCD.o
-                0x00800196                lcd_key
+ .bss.timeOfLastEvent1
+                0x0080019c        0x4 build\SerialMonitorLCD.o
+                0x0080019c                timeOfLastEvent1
+ .bss.lcd_key   0x008001a0        0x2 build\SerialMonitorLCD.o
+                0x008001a0                lcd_key
  .bss.adc_key_in
-                0x00800198        0x2 build\SerialMonitorLCD.o
-                0x00800198                adc_key_in
+                0x008001a2        0x2 build\SerialMonitorLCD.o
+                0x008001a2                adc_key_in
  .bss.lastDebounceTime
-                0x0080019a        0x4 build\SerialMonitorLCD.o
-                0x0080019a                lastDebounceTime
- .bss.lcd       0x0080019e       0x15 build\SerialMonitorLCD.o
-                0x0080019e                lcd
+                0x008001a4        0x4 build\SerialMonitorLCD.o
+                0x008001a4                lastDebounceTime
+ .bss.lcd       0x008001a8       0x15 build\SerialMonitorLCD.o
+                0x008001a8                lcd
  .bss.LCDcontent
-                0x008001b3        0x7 build\SerialMonitorLCD.o
-                0x008001b3                LCDcontent
+                0x008001bd        0x7 build\SerialMonitorLCD.o
+                0x008001bd                LCDcontent
  .bss.LCDcontent1
-                0x008001ba        0x7 build\SerialMonitorLCD.o
-                0x008001ba                LCDcontent1
+                0x008001c4        0x7 build\SerialMonitorLCD.o
+                0x008001c4                LCDcontent1
  .bss.LCDcontent2
-                0x008001c1        0x7 build\SerialMonitorLCD.o
-                0x008001c1                LCDcontent2
+                0x008001cb        0x7 build\SerialMonitorLCD.o
+                0x008001cb                LCDcontent2
  .bss.numOfBytes
-                0x008001c8        0x2 build\SerialMonitorLCD.o
-                0x008001c8                numOfBytes
+                0x008001d2        0x2 build\SerialMonitorLCD.o
+                0x008001d2                numOfBytes
  .bss.secnumOfBytes
-                0x008001ca        0x2 build\SerialMonitorLCD.o
-                0x008001ca                secnumOfBytes
- .bss.row       0x008001cc        0x2 build\SerialMonitorLCD.o
-                0x008001cc                row
- .bss.col       0x008001ce        0x2 build\SerialMonitorLCD.o
-                0x008001ce                col
+                0x008001d4        0x2 build\SerialMonitorLCD.o
+                0x008001d4                secnumOfBytes
+ .bss.row       0x008001d6        0x2 build\SerialMonitorLCD.o
+                0x008001d6                row
+ .bss.col       0x008001d8        0x2 build\SerialMonitorLCD.o
+                0x008001d8                col
  .bss.rx_buffer
-                0x008001d0       0x44 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x008001d0                rx_buffer
+                0x008001da       0x44 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x008001da                rx_buffer
  .bss.tx_buffer
-                0x00800214       0x44 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00800214                tx_buffer
- .bss.Serial    0x00800258       0x22 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
-                0x00800258                Serial
+                0x0080021e       0x44 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x0080021e                tx_buffer
+ .bss.Serial    0x00800262       0x22 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
+                0x00800262                Serial
  .bss.timer0_overflow_count
-                0x0080027a        0x4 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
-                0x0080027a                timer0_overflow_count
+                0x00800284        0x4 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
+                0x00800284                timer0_overflow_count
  .bss.timer0_millis
-                0x0080027e        0x4 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
-                0x0080027e                timer0_millis
+                0x00800288        0x4 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
+                0x00800288                timer0_millis
  .bss.timer0_fract
-                0x00800282        0x1 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
+                0x0080028c        0x1 D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
  *(COMMON)
- COMMON         0x00800283        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00800283                __brkval
-                0x00800285                __flp
-                0x00800287                PROVIDE (__bss_end, .)
-                0x000016ce                __data_load_start = LOADADDR (.data)
-                0x00001764                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x0080028d        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x0080028d                __brkval
+                0x0080028f                __flp
+                0x00800291                PROVIDE (__bss_end, .)
+                0x000017a2                __data_load_start = LOADADDR (.data)
+                0x0000183e                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800287        0x0
-                0x00800287                PROVIDE (__noinit_start, .)
+.noinit         0x00800291        0x0
+                0x00800291                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x00800287                PROVIDE (__noinit_end, .)
-                0x00800287                _end = .
-                0x00800287                PROVIDE (__heap_start, .)
+                0x00800291                PROVIDE (__noinit_end, .)
+                0x00800291                _end = .
+                0x00800291                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -1284,11 +1292,11 @@ Print::write(unsigned char const*, unsigned int)  D:\arduino\Projects\SerialMoni
 Serial                                            D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(HardwareSerial.cpp.o)
                                                   build\SerialMonitorLCD.o
 String::String(String const&)                     D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
 String::String(String const&)                     D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
-                                                  build\SerialMonitorLCD.o
+String::String(char const*)                       D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
 String::String(char const*)                       D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
                                                   build\SerialMonitorLCD.o
-String::String(char const*)                       D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
 String::String(char)                              D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
 String::String(char)                              D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
 String::String(int, unsigned char)                D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
@@ -1649,6 +1657,9 @@ strrev                                            d:/arduino/codeblocks/bin/../l
                                                   d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
 strstr                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
                                                   D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(WString.cpp.o)
+timeOfLastEvent                                   build\SerialMonitorLCD.o
+timeOfLastEvent1                                  build\SerialMonitorLCD.o
+timeOfLastEvent2                                  build\SerialMonitorLCD.o
 timer0_millis                                     D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
 timer0_overflow_count                             D:\arduino\Projects\SerialMonitorLCD\build\/core_uno_16.a(wiring.c.o)
 tolower                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)

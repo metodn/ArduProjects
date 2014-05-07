@@ -1,3 +1,4 @@
+//arduino UNO
 #include <Arduino.h>
 #include <LiquidCrystal.h>
 
@@ -40,6 +41,12 @@
 
 //BUILD options -> Cutom Variables -> ${UPLOAD_PORT) =com6
 
+//delay replacment
+unsigned long timeOfLastEvent = 0;
+unsigned long timeOfLastEvent1 = 0;
+unsigned long timeOfLastEvent2 = 0;
+
+
 // define some values used by the panel and buttons
 int lcd_key     = 0;
 int adc_key_in  = 0;
@@ -49,6 +56,8 @@ int adc_key_in  = 0;
 #define btnLEFT   3
 #define btnSELECT 4
 #define btnNONE   5
+#define btnDIR   6
+#define btnFACT   7
 
 
 unsigned long sTime = 0;
@@ -113,7 +122,7 @@ void setup()
      lcd.clear();
      lcd.setCursor(0,0);
 
-     Serial.begin(57600);
+     Serial.begin(115200);
 
 //    LCDstr= malloc(100);
 
@@ -126,16 +135,19 @@ void setup()
 // read the buttons
 int read_LCD_buttons()
 {
-   adc_key_in = analogRead(0);      // read the value from the sensor
-   // my buttons when read are centered at these valies: 0, 144, 329, 504, 741
-   // we add approx 50 to those values and check to see if we are close
-   if (adc_key_in > 1000) return btnNONE; // We make this the 1st option for speed reasons since it will be the most likely result
+   adc_key_in = analogRead(0);  // read the value from the sensor [0-1024]
+   //lcd.clear();
+  // lcd.setCursor(0,1);
+  // lcd.print(adc_key_in);
+   if (adc_key_in > 1800) return btnNONE; // We make this the 1st option for speed reasons since it will be the most likely result
    // For V1.1 us this threshold
    if (adc_key_in < 50)   return btnRIGHT;
    if (adc_key_in < 250)  return btnUP;
    if (adc_key_in < 450)  return btnDOWN;
    if (adc_key_in < 650)  return btnLEFT;
    if (adc_key_in < 850)  return btnSELECT;
+ //  if (adc_key_in < 1100)  return btnDIR;   //@tipki sDOWN  in LEVO  //TODO TEST ti
+//   if (adc_key_in < 1500)  return btnFACT;   //@tipki sDOWN  in LEVO  //TODO TEST ti
 
   //13  sensorVal = constrain(map(analogRead(A0),200,800,0,100),0,100                TOTDO  IDEA
 
@@ -190,7 +202,13 @@ void  LCDbuftest(){
 
 void loop()
 {
-
+ unsigned long currentMillis = millis(); //delay replacement
+// if (currentMillis - timeOfLastEvent2 > 2000){
+//       timeOfLastEvent2 = currentMillis;  //update timer with last event
+//        lcd.clear();
+// }
+ ///????    TESTIT
+   if (currentMillis - timeOfLastEvent1 > 200){ //vsakih 200 ms izvedi to
 
       // when characters arrive over the serial port...
       if (Serial.available()) {
@@ -222,21 +240,24 @@ void loop()
                 row=1;
                 continue;   //skipwriting to lcd
             }
-
+           //lcd.clear();
            lcd.write(sread);
 
         }
 
-        delay(50);
+        //delay(50);
     #ifdef DEBUG
         if (numOfBytes >0 ) { Serial.print(row); Serial.print("x"); Serial.print(col); Serial.print(" | "); Serial.print(secnumOfBytes);  Serial.print(" | "); Serial.print(numOfBytes);  Serial.print(" | "); Serial.print((col % LCDcol) );    Serial.print(" | ");  Serial.print(sread); Serial.print(" | ");  Serial.println(int(sread)) ; }
     #endif // DEBUG
 
       }
+    timeOfLastEvent1 = currentMillis;  //update timer with last event
+    }
+
 
       //////////keboard send
 
-      if ((millis() - lastDebounceTime) > 500)     //debounce de repeat
+      if ((millis() - lastDebounceTime) > 250)     //debounce de repeat
         {
             lcd_key = read_LCD_buttons();  // read the buttons
             lastDebounceTime = millis();
@@ -252,10 +273,10 @@ void loop()
        case btnRIGHT:
          {
             lcd.noBlink();
-            //lcd.clear();
-            //lcd.print("RIGHT ");
+            lcd.clear();
+            //lcd.print("LOAD");
 
-            Serial.write("RIGHT");
+            Serial.write("R"); //READ SETTING
 
 
          break;
@@ -263,10 +284,10 @@ void loop()
        case btnLEFT:
          {
             lcd.blink();
-            //lcd.clear();
-            //lcd.print("LEFT   ");
+            lcd.clear();
+            //lcd.print("SAVE  ");
 
-            Serial.write("LEFT");
+            Serial.write("L");
 
          break;
          }
@@ -294,11 +315,34 @@ void loop()
          }
        case btnSELECT:
          {
+            lcd.clear();
+            //lcd.blink();
+            lcd.print("DIRECTION");
+
+            Serial.write("I");
+
+
+         break;
+         }
+
+         case btnDIR:
+         {
             //lcd.clear();
             lcd.blink();
-           // lcd.print("SELECT");
+           // lcd.print("DIREXTION");
 
-            Serial.write("S");
+            Serial.write("I");
+
+
+         break;
+         }
+         case btnFACT:
+         {
+            //lcd.clear();
+            lcd.blink();
+           // lcd.print("DIREXTION");
+
+            Serial.write("F");
 
 
          break;
@@ -320,7 +364,7 @@ void loop()
 
 
 
-
+//NOT USED CODE
 void loop1()
 {
 //// http://arduino.cc/en/Tutorial/LiquidCrystalSerial    ///SERIAL TO LCD EXAMPLE
