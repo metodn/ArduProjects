@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1391987727 source:d:\arduino\projects\avr-test\fuse.c
+	<avr/io.h>
+
+1391989632 source:d:\arduino\projects\avr-test\main.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+

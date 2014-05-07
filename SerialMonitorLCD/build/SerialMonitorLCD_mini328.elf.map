@@ -1,0 +1,1668 @@
+Archive member included because of file (symbol)
+
+D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                              build\SerialMonitorLCD.o (LiquidCrystal::write(unsigned char))
+D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                              build\SerialMonitorLCD.o (Serial)
+D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(main.cpp.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o (main)
+D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o) (__cxa_pure_virtual)
+D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o) (Print::write(unsigned char const*, unsigned int))
+D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                              build\SerialMonitorLCD.o (millis)
+D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+                              build\SerialMonitorLCD.o (analogRead)
+D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o) (pinMode)
+D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                              build\SerialMonitorLCD.o (String::operator[](unsigned int))
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o) (__subsf3)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o) (__ltsf2)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o) (__divsf3)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o) (__fixsfsi)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o) (__fixunssfsi)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o) (__floatunsisf)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o) (__gtsf2)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o) (__mulsf3)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o) (__unordsf2)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o) (__mulsi3)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o) (__udivmodsi4)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o (exit)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              build\SerialMonitorLCD.o (__do_copy_data)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              build\SerialMonitorLCD.o (__do_clear_bss)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+                              build\SerialMonitorLCD.o (__do_global_ctors)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+                              build\SerialMonitorLCD.o (__do_global_dtors)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o) (__tablejump__)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o) (malloc)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (realloc)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (atol)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (isspace)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (tolower)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (toupper)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (memcpy)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (memmove)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strchr.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (strchr)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (strcmp)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (strcpy)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncmp.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (strncmp)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncpy.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (strncpy)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrchr.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (strrchr)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (strstr)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (itoa)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (ltoa)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o) (__mulsi_const_10)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (ultoa)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o) (utoa)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o) (__ctype_isfalse)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o) (strrev)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o) (__udivmodhi4)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o) (__prologue_saves__)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__flp               0x2               d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+ .text          0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss           0x00000000        0x0 build\SerialMonitorLCD.o
+ .text._Z5loop1v
+                0x00000000        0x0 build\SerialMonitorLCD.o
+ .text._Z10LCDbuftestv
+                0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.sTime     0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.lTime     0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.eTime     0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.inData    0x00000000        0x0 build\SerialMonitorLCD.o
+ .data.inChar   0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.index     0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.LCDHID    0x00000000        0x0 build\SerialMonitorLCD.o
+ .data.LCDBUF   0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.byteRead  0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.LCDstr    0x00000000        0x0 build\SerialMonitorLCD.o
+ .bss.LCDredraw
+                0x00000000        0x0 build\SerialMonitorLCD.o
+ .text          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystal10createCharEhPh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystal12noAutoscrollEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystal10autoscrollEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystal11rightToLeftEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystal11leftToRightEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystal18scrollDisplayRightEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystal17scrollDisplayLeftEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystal9noDisplayEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystal4homeEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystalC2Ehhhhhh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystalC1Ehhhhhhh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystalC2Ehhhhhhh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystalC1Ehhhhhhhhhh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystalC2Ehhhhhhhhhh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystalC1Ehhhhhhhhhhh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text._ZN13LiquidCrystalC2Ehhhhhhhhhhh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerialC2EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerialC1EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerial5beginEmh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerial3endEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerialcvbEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ .rodata._ZTV6Stream
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(main.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(main.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(main.cpp.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .text.__cxa_guard_acquire
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .text.__cxa_guard_release
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .text.__cxa_guard_abort
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .text.__cxa_pure_virtual
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .text._ZdaPv   0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .text._ZdlPv   0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .text._Znaj    0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .text._Znwj    0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5printERK9Printable
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5writeEPKc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print11printNumberEmh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEmi
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEmi
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEji
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEji
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEhi
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEhi
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEli
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEli
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEii
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEii
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEdi
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEPKc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print5printERK6String
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK6String
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .rodata._ZTV5Print
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+ .text.analogReference
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+ .text.analogWrite
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+ .text.digitalRead
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String6charAtEj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String9setCharAtEjc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringixEj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6StringixEj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String7replaceEcc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String5toIntEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String4trimEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String11toUpperCaseEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String11toLowerCaseEv
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String16equalsIgnoreCaseERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfERKS_j
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String7indexOfERKS_j
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String7indexOfERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfEcj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfEc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String7indexOfEcj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String7indexOfEc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String8getBytesEPhjj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String8endsWithERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String6equalsEPKc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String9compareToERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6StringgeERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6StringleERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6StringgtERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6StringltERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String6equalsERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String10startsWithERKS_j
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String10startsWithERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String7replaceERKS_S1_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEPKcj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEm
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEl
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEi
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEPKc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6String6concatERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperm
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperl
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperi
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperPKc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperRK6String
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC2EPKc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringaSEPKc
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Emh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Emh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Elh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Elh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Ejh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Ejh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Eih
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Eih
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Ehh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Ehh
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Ec
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Ec
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String9substringEjj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZNK6String9substringEj
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringaSERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC1ERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringC2ERKS_
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text._ZN6StringD2Ev
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .bss._ZZN6StringixEjE19dummy_writable_char
+                0x00000000        0x0 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .text.ctype    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .text.ctype    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .text.ctype    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strchr.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strchr.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strchr.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncmp.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncmp.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncmp.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncpy.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncpy.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncpy.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrchr.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrchr.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrchr.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .text.ctype    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+LOAD build\SerialMonitorLCD.o
+LOAD D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a
+LOAD D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a
+LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a
+LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x163c
+ *(.vectors)
+ .vectors       0x00000000       0x68 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000068       0x5a D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+                0x00000068                port_to_mode_PGM
+                0x00000086                digital_pin_to_port_PGM
+                0x0000009a                digital_pin_to_bit_mask_PGM
+                0x00000072                port_to_output_PGM
+                0x0000007c                port_to_input_PGM
+                0x000000ae                digital_pin_to_timer_PGM
+                0x000000c2                . = ALIGN (0x2)
+                0x000000c2                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000c2        0x0 linker stubs
+ *(.trampolines*)
+                0x000000c2                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000c2                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000000c2        0x2 build\SerialMonitorLCD.o
+ .ctors         0x000000c4        0x2 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x000000c6                __ctors_end = .
+                0x000000c6                __dtors_start = .
+ *(.dtors)
+ .dtors         0x000000c6        0x2 build\SerialMonitorLCD.o
+                0x000000c8                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000c8        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+                0x000000c8                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000c8        0xc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000d4       0x16 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x000000d4                __do_copy_data
+ .init4         0x000000ea       0x10 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x000000ea                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x000000fa       0x16 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+                0x000000fa                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000110        0x8 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000118        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+                0x00000118                __vector_22
+                0x00000118                __vector_1
+                0x00000118                __vector_24
+                0x00000118                __vector_12
+                0x00000118                __bad_interrupt
+                0x00000118                __vector_6
+                0x00000118                __vector_3
+                0x00000118                __vector_23
+                0x00000118                __vector_25
+                0x00000118                __vector_11
+                0x00000118                __vector_13
+                0x00000118                __vector_17
+                0x00000118                __vector_7
+                0x00000118                __vector_5
+                0x00000118                __vector_4
+                0x00000118                __vector_9
+                0x00000118                __vector_2
+                0x00000118                __vector_21
+                0x00000118                __vector_15
+                0x00000118                __vector_8
+                0x00000118                __vector_14
+                0x00000118                __vector_10
+                0x00000118                __vector_20
+ .text          0x0000011c      0x204 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x0000011c                malloc
+                0x00000270                free
+ .text          0x00000320      0x1aa d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                0x00000320                realloc
+ .text          0x000004ca       0x12 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x000004ca                memcpy
+ .text          0x000004dc        0xe d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x000004dc                strcpy
+                0x000004ea                . = ALIGN (0x2)
+ *(.text.*)
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x000004ea       0x7a build\SerialMonitorLCD.o
+ .text._GLOBAL__D_lcd_key
+                0x00000564        0xe build\SerialMonitorLCD.o
+ .text._GLOBAL__I_lcd_key
+                0x00000572        0xe build\SerialMonitorLCD.o
+ .text._ZN5Print5writeEPKc
+                0x00000580       0x38 build\SerialMonitorLCD.o
+                0x00000580                Print::write(char const*)
+ .text._Z16read_LCD_buttonsv
+                0x000005b8       0x5e build\SerialMonitorLCD.o
+                0x000005b8                read_LCD_buttons()
+ .text.loop     0x00000616      0x1ca build\SerialMonitorLCD.o
+                0x00000616                loop
+ .text.setup    0x000007e0       0x60 build\SerialMonitorLCD.o
+                0x000007e0                setup
+ .text._ZN13LiquidCrystal11pulseEnableEv
+                0x00000840       0x42 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x00000840                LiquidCrystal::pulseEnable()
+ .text._ZN13LiquidCrystal10write8bitsEh
+                0x00000882       0x6c D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x00000882                LiquidCrystal::write8bits(unsigned char)
+ .text._ZN13LiquidCrystal10write4bitsEh
+                0x000008ee       0x6c D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x000008ee                LiquidCrystal::write4bits(unsigned char)
+ .text._ZN13LiquidCrystal4sendEhh
+                0x0000095a       0x52 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x0000095a                LiquidCrystal::send(unsigned char, unsigned char)
+ .text._ZN13LiquidCrystal5writeEh
+                0x000009ac        0xc D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x000009ac                LiquidCrystal::write(unsigned char)
+ .text._ZN13LiquidCrystal7commandEh
+                0x000009b8        0x8 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x000009b8                LiquidCrystal::command(unsigned char)
+ .text._ZN13LiquidCrystal5blinkEv
+                0x000009c0       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x000009c0                LiquidCrystal::blink()
+ .text._ZN13LiquidCrystal7noBlinkEv
+                0x000009d4       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x000009d4                LiquidCrystal::noBlink()
+ .text._ZN13LiquidCrystal6cursorEv
+                0x000009e4       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x000009e4                LiquidCrystal::cursor()
+ .text._ZN13LiquidCrystal8noCursorEv
+                0x000009f8       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x000009f8                LiquidCrystal::noCursor()
+ .text._ZN13LiquidCrystal7displayEv
+                0x00000a08       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x00000a08                LiquidCrystal::display()
+ .text._ZN13LiquidCrystal9setCursorEhh
+                0x00000a1c       0x5e D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x00000a1c                LiquidCrystal::setCursor(unsigned char, unsigned char)
+ .text._ZN13LiquidCrystal5clearEv
+                0x00000a7a       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x00000a7a                LiquidCrystal::clear()
+ .text._ZN13LiquidCrystal5beginEhhh
+                0x00000a8a       0xde D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x00000a8a                LiquidCrystal::begin(unsigned char, unsigned char, unsigned char)
+ .text._ZN13LiquidCrystal4initEhhhhhhhhhhhh
+                0x00000b68       0x8e D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x00000b68                LiquidCrystal::init(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+ .text._ZN13LiquidCrystalC1Ehhhhhh
+                0x00000bf6       0x72 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x00000bf6                LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+ .text._Z11serialEventv
+                0x00000c68        0x2 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00000c68                serialEvent()
+ .text.__vector_18
+                0x00000c6a       0x76 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00000c6a                __vector_18
+ .text._Z14serialEventRunv
+                0x00000ce0       0x26 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00000ce0                serialEventRun()
+ .text.__vector_19
+                0x00000d06       0x76 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00000d06                __vector_19
+ .text._ZN14HardwareSerial5beginEm
+                0x00000d7c      0x10e D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00000d7c                HardwareSerial::begin(unsigned long)
+ .text._ZN14HardwareSerial9availableEv
+                0x00000e8a       0x22 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00000e8a                HardwareSerial::available()
+ .text._ZN14HardwareSerial4peekEv
+                0x00000eac       0x40 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00000eac                HardwareSerial::peek()
+ .text._ZN14HardwareSerial4readEv
+                0x00000eec       0x52 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00000eec                HardwareSerial::read()
+ .text._ZN14HardwareSerial5flushEv
+                0x00000f3e       0x20 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00000f3e                HardwareSerial::flush()
+ .text._ZN14HardwareSerial5writeEh
+                0x00000f5e       0x80 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00000f5e                HardwareSerial::write(unsigned char)
+ .text._GLOBAL__I_rx_buffer
+                0x00000fde       0xac D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ .text.main     0x0000108a       0x1e D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(main.cpp.o)
+                0x0000108a                main
+ .text._ZN5Print5writeEPKhj
+                0x000010a8       0x54 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+                0x000010a8                Print::write(unsigned char const*, unsigned int)
+ .text._ZN5Print5printEPKc
+                0x000010fc        0x6 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+                0x000010fc                Print::print(char const*)
+ .text.__vector_16
+                0x00001102       0x90 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                0x00001102                __vector_16
+ .text.millis   0x00001192       0x1c D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                0x00001192                millis
+ .text.micros   0x000011ae       0x4c D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                0x000011ae                micros
+ .text.delay    0x000011fa       0x4c D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                0x000011fa                delay
+ .text.delayMicroseconds
+                0x00001246       0x14 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                0x00001246                delayMicroseconds
+ .text.init     0x0000125a       0x76 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                0x0000125a                init
+ .text.analogRead
+                0x000012d0       0x44 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+                0x000012d0                analogRead
+ .text.pinMode  0x00001314       0x7e D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+                0x00001314                pinMode
+ .text.turnOffPWM
+                0x00001392       0x5a D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+ .text.digitalWrite
+                0x000013ec       0x66 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+                0x000013ec                digitalWrite
+ .text._ZN6String12changeBufferEj
+                0x00001452       0x34 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                0x00001452                String::changeBuffer(unsigned int)
+ .text._ZN6String7reserveEj
+                0x00001486       0x38 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                0x00001486                String::reserve(unsigned int)
+ .text._ZN6String10invalidateEv
+                0x000014be       0x24 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                0x000014be                String::invalidate()
+ .text._ZN6String4copyEPKcj
+                0x000014e2       0x42 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                0x000014e2                String::copy(char const*, unsigned int)
+ .text._ZN6StringC1EPKc
+                0x00001524       0x34 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                0x00001524                String::String(char const*)
+ .text._ZN6StringD1Ev
+                0x00001558        0xc D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                0x00001558                String::~String()
+ .text.libgcc   0x00001564       0x44 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001564                __udivmodsi4
+ .text.libgcc   0x000015a8        0xc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+                0x000015ac                __tablejump__
+                0x000015a8                __tablejump2__
+ .text.libgcc   0x000015b4       0x38 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x000015b4                __prologue_saves__
+ .text.libgcc   0x000015ec       0x36 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x000015ec                __epilogue_restores__
+                0x00001622                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001622        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00001622                exit
+                0x00001622                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ .fini6         0x00001622       0x16 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+                0x00001622                __do_global_dtors
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001638        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000163c                _etext = .
+
+.data           0x00800100       0x96 load address 0x0000163c
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100       0x6f build\SerialMonitorLCD.o
+ .data          0x0080016f        0x6 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800171                __malloc_heap_start
+                0x00800173                __malloc_heap_end
+                0x0080016f                __malloc_margin
+ *(.data*)
+ .data.analog_reference
+                0x00800175        0x1 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+                0x00800175                analog_reference
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZTV13LiquidCrystal
+                0x00800176        0x8 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                0x00800176                vtable for LiquidCrystal
+ .rodata._ZZN13LiquidCrystal9setCursorEhhE3C.3
+                0x0080017e        0x8 D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+ .rodata._ZTV14HardwareSerial
+                0x00800186       0x10 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00800186                vtable for HardwareSerial
+ *(.gnu.linkonce.d*)
+                0x00800196                . = ALIGN (0x2)
+                0x00800196                _edata = .
+                0x00800196                PROVIDE (__data_end, .)
+
+.bss            0x00800196       0xf1
+                0x00800196                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.lcd_key   0x00800196        0x2 build\SerialMonitorLCD.o
+                0x00800196                lcd_key
+ .bss.adc_key_in
+                0x00800198        0x2 build\SerialMonitorLCD.o
+                0x00800198                adc_key_in
+ .bss.lastDebounceTime
+                0x0080019a        0x4 build\SerialMonitorLCD.o
+                0x0080019a                lastDebounceTime
+ .bss.lcd       0x0080019e       0x15 build\SerialMonitorLCD.o
+                0x0080019e                lcd
+ .bss.LCDcontent
+                0x008001b3        0x7 build\SerialMonitorLCD.o
+                0x008001b3                LCDcontent
+ .bss.LCDcontent1
+                0x008001ba        0x7 build\SerialMonitorLCD.o
+                0x008001ba                LCDcontent1
+ .bss.LCDcontent2
+                0x008001c1        0x7 build\SerialMonitorLCD.o
+                0x008001c1                LCDcontent2
+ .bss.numOfBytes
+                0x008001c8        0x2 build\SerialMonitorLCD.o
+                0x008001c8                numOfBytes
+ .bss.secnumOfBytes
+                0x008001ca        0x2 build\SerialMonitorLCD.o
+                0x008001ca                secnumOfBytes
+ .bss.row       0x008001cc        0x2 build\SerialMonitorLCD.o
+                0x008001cc                row
+ .bss.col       0x008001ce        0x2 build\SerialMonitorLCD.o
+                0x008001ce                col
+ .bss.rx_buffer
+                0x008001d0       0x44 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x008001d0                rx_buffer
+ .bss.tx_buffer
+                0x00800214       0x44 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00800214                tx_buffer
+ .bss.Serial    0x00800258       0x22 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                0x00800258                Serial
+ .bss.timer0_overflow_count
+                0x0080027a        0x4 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                0x0080027a                timer0_overflow_count
+ .bss.timer0_millis
+                0x0080027e        0x4 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                0x0080027e                timer0_millis
+ .bss.timer0_fract
+                0x00800282        0x1 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+ *(COMMON)
+ COMMON         0x00800283        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800283                __brkval
+                0x00800285                __flp
+                0x00800287                PROVIDE (__bss_end, .)
+                0x0000163c                __data_load_start = LOADADDR (.data)
+                0x000016d2                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800287        0x0
+                0x00800287                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800287                PROVIDE (__noinit_end, .)
+                0x00800287                _end = .
+                0x00800287                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(build\SerialMonitorLCD_mini328.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::available()                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  build\SerialMonitorLCD.o
+HardwareSerial::begin(unsigned long)              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  build\SerialMonitorLCD.o
+HardwareSerial::begin(unsigned long, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::end()                             D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::flush()                           D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::operator bool()                   D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::peek()                            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::read()                            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  build\SerialMonitorLCD.o
+HardwareSerial::write(unsigned char)              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+LCDBUF                                            build\SerialMonitorLCD.o
+LCDHID                                            build\SerialMonitorLCD.o
+LCDbuftest()                                      build\SerialMonitorLCD.o
+LCDcontent                                        build\SerialMonitorLCD.o
+LCDcontent1                                       build\SerialMonitorLCD.o
+LCDcontent2                                       build\SerialMonitorLCD.o
+LCDredraw                                         build\SerialMonitorLCD.o
+LCDstr                                            build\SerialMonitorLCD.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                                                  build\SerialMonitorLCD.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::autoscroll()                       D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::begin(unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                                                  build\SerialMonitorLCD.o
+LiquidCrystal::blink()                            D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                                                  build\SerialMonitorLCD.o
+LiquidCrystal::clear()                            D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                                                  build\SerialMonitorLCD.o
+LiquidCrystal::command(unsigned char)             D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::createChar(unsigned char, unsigned char*) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::cursor()                           D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                                                  build\SerialMonitorLCD.o
+LiquidCrystal::display()                          D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::home()                             D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::init(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::leftToRight()                      D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::noAutoscroll()                     D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::noBlink()                          D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                                                  build\SerialMonitorLCD.o
+LiquidCrystal::noCursor()                         D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                                                  build\SerialMonitorLCD.o
+LiquidCrystal::noDisplay()                        D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::pulseEnable()                      D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::rightToLeft()                      D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::scrollDisplayLeft()                D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::scrollDisplayRight()               D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::send(unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::setCursor(unsigned char, unsigned char) D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                                                  build\SerialMonitorLCD.o
+LiquidCrystal::write(unsigned char)               D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                                                  build\SerialMonitorLCD.o
+LiquidCrystal::write4bits(unsigned char)          D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+LiquidCrystal::write8bits(unsigned char)          D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+Print::print(Printable const&)                    D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::print(String const&)                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+                                                  build\SerialMonitorLCD.o
+Print::print(__FlashStringHelper const*)          D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::print(char const*)                         D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+                                                  build\SerialMonitorLCD.o
+Print::print(char)                                D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+                                                  build\SerialMonitorLCD.o
+Print::print(double, int)                         D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::print(int, int)                            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::print(long, int)                           D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::print(unsigned char, int)                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::print(unsigned int, int)                   D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::print(unsigned long, int)                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::printFloat(double, unsigned char)          D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::printNumber(unsigned long, unsigned char)  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println()                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(Printable const&)                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(String const&)                     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(__FlashStringHelper const*)        D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(char const*)                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(char)                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(double, int)                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(int, int)                          D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(long, int)                         D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(unsigned char, int)                D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(unsigned int, int)                 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::println(unsigned long, int)                D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+Print::write(char const*)                         build\SerialMonitorLCD.o
+Print::write(unsigned char const*, unsigned int)  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+Serial                                            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  build\SerialMonitorLCD.o
+String::String(String const&)                     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
+String::String(String const&)                     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(char const*)                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(char const*)                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
+String::String(char)                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(char)                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(int, unsigned char)                D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(int, unsigned char)                D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(long, unsigned char)               D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(long, unsigned char)               D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(unsigned char, unsigned char)      D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(unsigned char, unsigned char)      D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(unsigned int, unsigned char)       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(unsigned int, unsigned char)       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(unsigned long, unsigned char)      D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::String(unsigned long, unsigned char)      D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::changeBuffer(unsigned int)                D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::charAt(unsigned int) const                D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::compareTo(String const&) const            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::concat(String const&)                     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::concat(char const*)                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::concat(char const*, unsigned int)         D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::concat(char)                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::concat(int)                               D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::concat(long)                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::concat(unsigned char)                     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::concat(unsigned int)                      D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::concat(unsigned long)                     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::copy(char const*, unsigned int)           D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::endsWith(String const&) const             D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::equals(String const&) const               D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::equals(char const*) const                 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::equalsIgnoreCase(String const&) const     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::getBytes(unsigned char*, unsigned int, unsigned int) const D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::indexOf(String const&) const              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::indexOf(String const&, unsigned int) const D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::indexOf(char) const                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::indexOf(char, unsigned int) const         D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::invalidate()                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::lastIndexOf(String const&) const          D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::lastIndexOf(String const&, unsigned int) const D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::lastIndexOf(char) const                   D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::lastIndexOf(char, unsigned int) const     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::operator<(String const&) const            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::operator<=(String const&) const           D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::operator=(String const&)                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
+String::operator=(char const*)                    D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
+String::operator>(String const&) const            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::operator>=(String const&) const           D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::operator[](unsigned int)                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
+String::operator[](unsigned int) const            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+String::replace(String const&, String const&)     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::replace(char, char)                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::reserve(unsigned int)                     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::setCharAt(unsigned int, char)             D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::startsWith(String const&) const           D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::startsWith(String const&, unsigned int) const D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::substring(unsigned int) const             D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::substring(unsigned int, unsigned int) const D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::toInt() const                             D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::toLowerCase()                             D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::toUpperCase()                             D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::trim()                                    D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+String::~String()                                 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
+String::~String()                                 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
+__addsf3                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__addsf3x                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+__bad_interrupt                                   d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__brkval                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__bss_end                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+__bss_start                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+__cmpsf2                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+__ctors_end                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+__ctors_start                                     d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+__ctype_isfalse                                   d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+__ctype_istrue                                    d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+__cxa_guard_abort                                 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+__cxa_guard_acquire                               D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+__cxa_guard_release                               D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+__cxa_pure_virtual                                D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+__data_end                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__data_load_start                                 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__data_start                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__divsf3                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__divsf3_pse                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+__divsf3x                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+__do_clear_bss                                    d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  build\SerialMonitorLCD.o
+__do_copy_data                                    d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+                                                  build\SerialMonitorLCD.o
+__do_global_ctors                                 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  build\SerialMonitorLCD.o
+__do_global_dtors                                 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+                                                  build\SerialMonitorLCD.o
+__dtors_end                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+__dtors_start                                     d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+__epilogue_restores__                             d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__eqsf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+__fixsfsi                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__fixunssfsi                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__floatsisf                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__floatunsisf                                     d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__flp                                             d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__fp_cmp                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+__fp_inf                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_nan                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_pscA                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_pscB                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_round                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+__fp_split3                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_splitA                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+__fp_szero                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+__fp_zero                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__gesf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+__gtsf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__heap_end                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__heap_start                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__init                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__lesf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__ltsf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__malloc_heap_end                                 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__malloc_heap_start                               d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__malloc_margin                                   d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__mulsf3                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__mulsf3_pse                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+__mulsf3x                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+__mulsi3                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__mulsi_const_10                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+__nesf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+__prologue_saves__                                d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__stack                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__subsf3                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__tablejump2__                                    d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+__tablejump__                                     d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_dtors.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+__udivmodhi4                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+__udivmodsi4                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+__unordsf2                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+__vector_1                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_10                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_11                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_12                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_13                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_14                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_15                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_16                                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_17                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_18                                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_19                                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_2                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_20                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_21                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_22                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_23                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_24                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_25                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_3                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_4                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_5                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_6                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_7                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_8                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_9                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_default                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vectors                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+_exit                                             d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+adc_key_in                                        build\SerialMonitorLCD.o
+analogRead                                        D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+                                                  build\SerialMonitorLCD.o
+analogReference                                   D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+analogWrite                                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+analog_reference                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+atol                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+byteRead                                          build\SerialMonitorLCD.o
+col                                               build\SerialMonitorLCD.o
+delay                                             D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                                                  build\SerialMonitorLCD.o
+delayMicroseconds                                 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+digitalRead                                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+digitalWrite                                      D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+digital_pin_to_bit_mask_PGM                       D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+digital_pin_to_port_PGM                           D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+digital_pin_to_timer_PGM                          D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+eTime                                             build\SerialMonitorLCD.o
+exit                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+free                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+inChar                                            build\SerialMonitorLCD.o
+inData                                            build\SerialMonitorLCD.o
+index                                             build\SerialMonitorLCD.o
+init                                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(main.cpp.o)
+isspace                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+itoa                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+lTime                                             build\SerialMonitorLCD.o
+lastDebounceTime                                  build\SerialMonitorLCD.o
+lcd                                               build\SerialMonitorLCD.o
+lcd_key                                           build\SerialMonitorLCD.o
+loop                                              build\SerialMonitorLCD.o
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(main.cpp.o)
+loop1()                                           build\SerialMonitorLCD.o
+ltoa                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+main                                              D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(main.cpp.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+malloc                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+memcpy                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+memmove                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+micros                                            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+millis                                            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+                                                  build\SerialMonitorLCD.o
+numOfBytes                                        build\SerialMonitorLCD.o
+operator delete(void*)                            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+operator delete[](void*)                          D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+operator new(unsigned int)                        D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+operator new[](unsigned int)                      D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(new.cpp.o)
+operator+(StringSumHelper const&, String const&)  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
+operator+(StringSumHelper const&, char const*)    D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
+operator+(StringSumHelper const&, char)           D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+                                                  build\SerialMonitorLCD.o
+operator+(StringSumHelper const&, int)            D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, long)           D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned char)  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned int)   D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned long)  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+pinMode                                           D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_analog.c.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+port_to_input_PGM                                 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+port_to_mode_PGM                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+port_to_output_PGM                                D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring_digital.c.o)
+read_LCD_buttons()                                build\SerialMonitorLCD.o
+realloc                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+row                                               build\SerialMonitorLCD.o
+rx_buffer                                         D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+sTime                                             build\SerialMonitorLCD.o
+secnumOfBytes                                     build\SerialMonitorLCD.o
+serialEvent()                                     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+serialEventRun()                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(main.cpp.o)
+setup                                             build\SerialMonitorLCD.o
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(main.cpp.o)
+strchr                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strchr.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+strcmp                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+strcpy                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+strncmp                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncmp.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+strncpy                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncpy.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+strrchr                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrchr.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+strrev                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+strstr                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+timer0_millis                                     D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+timer0_overflow_count                             D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(wiring.c.o)
+tolower                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+toupper                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+tx_buffer                                         D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+ultoa                                             d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+utoa                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+                                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(WString.cpp.o)
+vtable for HardwareSerial                         D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)
+vtable for LiquidCrystal                          D:\arduino\Projects\SerialMonitorLCD\build\/lib_mini328_16.a(LiquidCrystal.cpp.o)
+vtable for Print                                  D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(Print.cpp.o)
+vtable for Stream                                 D:\arduino\Projects\SerialMonitorLCD\build\/core_mini328_16.a(HardwareSerial.cpp.o)

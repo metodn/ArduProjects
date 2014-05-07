@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1391673110 source:d:\arduino\projects\i2c_lcd_small\i2c_lcd_small.ino
+	<Arduino.h>
+	<LiquidCrystal_I2C.h>
+
+1371033101 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<avr/pgmspace.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"HardwareSerial.h"
+	"pins_arduino.h"
+
+1362990550 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\binary.h
+
+1362990550 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\wcharacter.h
+	<ctype.h>
+
+1371033133 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\wstring.h
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<avr/pgmspace.h>
+
+1362990550 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\hardwareserial.h
+	<inttypes.h>
+	"Stream.h"
+	"USBAPI.h"
+
+1371032829 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\stream.h
+	<inttypes.h>
+	"Print.h"
+
+1362990550 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\print.h
+	<inttypes.h>
+	<stdio.h>
+	"WString.h"
+	"Printable.h"
+
+1362990550 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\printable.h
+	<new.h>
+
+1362990550 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\new.h
+	<stdlib.h>
+
+1362990550 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\usbapi.h
+
+1362990550 d:\arduino\codeblocks\arduino\hardware\arduino\variants\eightanaloginputs\pins_arduino.h
+	"../standard/pins_arduino.h"
+
+1362990550 d:\arduino\codeblocks\arduino\hardware\arduino\variants\standard\pins_arduino.h
+	<avr/pgmspace.h>
+
+1318106932 d:\arduino\projects\i2c_lcd_small\st7036.h
+	<Arduino.h>
+	<inttypes.h>
+	<Wire.h>
+	"Print.h"
+	"LCD.h"
+
+1333646394 d:\arduino\projects\i2c_lcd_small\lcd.h
+	<WProgram.h>
+	<Arduino.h>
+	<inttypes.h>
+	<Print.h>
+
+1333646394 d:\arduino\projects\i2c_lcd_small\liquidcrystal_i2c.h
+	<inttypes.h>
+	<Print.h>
+	"I2CIO.h"
+	"LCD.h"
+
+1333646394 d:\arduino\projects\i2c_lcd_small\i2cio.h
+	<inttypes.h>
+

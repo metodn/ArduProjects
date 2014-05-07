@@ -1,0 +1,132 @@
+# depslib dependency file v1.0
+1395271402 source:d:\arduino\projects\netwroktemp\netwroktemp.ino
+	<Arduino.h>
+	<lib/UIPEthernet.h>
+
+1371029501 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\arduino.h
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<avr/pgmspace.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"binary.h"
+	"WCharacter.h"
+	"WString.h"
+	"HardwareSerial.h"
+	"pins_arduino.h"
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\binary.h
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\wcharacter.h
+	<ctype.h>
+
+1371029533 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\wstring.h
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<avr/pgmspace.h>
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\hardwareserial.h
+	<inttypes.h>
+	"Stream.h"
+	"USBAPI.h"
+
+1371029229 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\stream.h
+	<inttypes.h>
+	"Print.h"
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\print.h
+	<inttypes.h>
+	<stdio.h>
+	"WString.h"
+	"Printable.h"
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\printable.h
+	<new.h>
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\new.h
+	<stdlib.h>
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\usbapi.h
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\variants\eightanaloginputs\pins_arduino.h
+	"../standard/pins_arduino.h"
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\variants\standard\pins_arduino.h
+	<avr/pgmspace.h>
+
+1395269600 d:\arduino\projects\netwroktemp\lib\uipethernet.h
+	"ethernet_comp.h"
+	<Arduino.h>
+	"Dhcp.h"
+	"IPAddress.h"
+	"utility/Enc28J60Network.h"
+	"UIPClient.h"
+	"UIPServer.h"
+	"UIPUdp.h"
+	"utility/uip_timer.h"
+	"utility/uip.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\ethernet_comp.h
+
+1395269600 d:\arduino\projects\netwroktemp\lib\dhcp.h
+	"UIPUdp.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\uipudp.h
+	"ethernet_comp.h"
+	"Arduino.h"
+	<Udp.h>
+	"utility/mempool.h"
+	"utility/uip.h"
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\udp.h
+	<Stream.h>
+	<IPAddress.h>
+
+1362986950 d:\arduino\codeblocks\arduino\hardware\arduino\cores\arduino\ipaddress.h
+	<Printable.h>
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\mempool.h
+	<inttypes.h>
+	"mempool_conf.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\mempool_conf.h
+	"uipethernet-conf.h"
+	"uipopt.h"
+	"enc28j60.h"
+	<inttypes.h>
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\uipethernet-conf.h
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\uipopt.h
+	"uip-conf.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\uip-conf.h
+	<inttypes.h>
+	"uipethernet-conf.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\enc28j60.h
+	<inttypes.h>
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\uip.h
+	"uipopt.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\enc28j60network.h
+	"mempool.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\uipclient.h
+	"ethernet_comp.h"
+	"Print.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\uipserver.h
+	"ethernet_comp.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\uip_timer.h
+	"uip_clock.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\uip_clock.h
+	"clock-arch.h"
+
+1395269600 d:\arduino\projects\netwroktemp\lib\utility\clock-arch.h
+

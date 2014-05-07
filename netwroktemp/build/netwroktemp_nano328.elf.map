@@ -1,0 +1,1451 @@
+Archive member included because of file (symbol)
+
+D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                              build\netwroktemp.o (Serial)
+D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                              build\netwroktemp.o (vtable for IPAddress)
+D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o (main)
+D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+                              build\netwroktemp.o (__cxa_pure_virtual)
+D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                              build\netwroktemp.o (Print::write(unsigned char const*, unsigned int))
+D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o) (init)
+D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (String::operator[](unsigned int) const)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (__subsf3)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (__ltsf2)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (__divsf3)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (__fixsfsi)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (__fixunssfsi)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (__floatunsisf)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (__gtsf2)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (__mulsf3)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (__unordsf2)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o) (__mulsi3)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o) (__udivmodsi4)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o (exit)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              build\netwroktemp.o (__do_copy_data)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              build\netwroktemp.o (__do_clear_bss)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+                              build\netwroktemp.o (__do_global_ctors)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o) (__tablejump__)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                              build\netwroktemp.o (malloc)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (realloc)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (atol)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (isspace)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (tolower)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (toupper)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcmp.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o) (memcmp)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (memcpy)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (memmove)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strchr.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (strchr)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (strcmp)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (strcpy)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncmp.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (strncmp)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncpy.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (strncpy)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrchr.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (strrchr)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (strstr)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (itoa)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (ltoa)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o) (__mulsi_const_10)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (ultoa)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o) (utoa)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o) (__ctype_isfalse)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o) (strrev)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o) (__udivmodhi4)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o) (__prologue_saves__)
+d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__flp               0x2               d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+ .text          0x00000000        0x0 build\netwroktemp.o
+ .bss           0x00000000        0x0 build\netwroktemp.o
+ .rodata._ZTV9Printable
+                0x00000000        0x0 build\netwroktemp.o
+ .text          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerialC2EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerialC1EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerial5beginEmh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerial3endEv
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerialcvbEv
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .rodata._ZTV6Stream
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZN9IPAddressC2Ehhhh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZN9IPAddresseqEPKh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZN9IPAddressaSEm
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZN9IPAddressaSEPKh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZN9IPAddressC1EPKh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZN9IPAddressC2EPKh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZN9IPAddressC1Em
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZN9IPAddressC2Em
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZN9IPAddressC1Ev
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZN9IPAddressC2Ev
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .rodata._ZTV9Printable
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .text.__cxa_guard_acquire
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .text.__cxa_guard_release
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .text.__cxa_guard_abort
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .text.__cxa_pure_virtual
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .text._ZdaPv   0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .text._ZdlPv   0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .text._Znaj    0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .text._Znwj    0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print5printERK9Printable
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEmi
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEji
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEji
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEhi
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEli
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEli
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEii
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEii
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEPKc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print5printEdi
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print5printERK6String
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK6String
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .rodata._ZTV5Print
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+ .text.millis   0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+ .text.micros   0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+ .text.delay    0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+ .text.delayMicroseconds
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+ .text          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .data          0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .bss           0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String6charAtEj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String9setCharAtEjc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringixEj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6StringixEj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String7replaceEcc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String5toIntEv
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String4trimEv
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String11toUpperCaseEv
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String11toLowerCaseEv
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String16equalsIgnoreCaseERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfERKS_j
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String7indexOfERKS_j
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String7indexOfERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfEcj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String11lastIndexOfEc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String7indexOfEcj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String7indexOfEc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String8getBytesEPhjj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String8endsWithERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String6equalsEPKc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String9compareToERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6StringgeERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6StringleERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6StringgtERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6StringltERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String6equalsERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String10startsWithERKS_j
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String10startsWithERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String12changeBufferEj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String7replaceERKS_S1_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String7reserveEj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEPKcj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEm
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEl
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEi
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String6concatEPKc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String6concatERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String10invalidateEv
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperm
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperl
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperi
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperPKc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZplRK15StringSumHelperRK6String
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6String4copyEPKcj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC1EPKc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC2EPKc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringaSEPKc
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Emh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Emh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Elh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Elh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Ejh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Ejh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Eih
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Eih
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Ehh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Ehh
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC1Ec
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC2Ec
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String9substringEjj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZNK6String9substringEj
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringaSERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC1ERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringC2ERKS_
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringD1Ev
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text._ZN6StringD2Ev
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .bss._ZZN6StringixEjE19dummy_writable_char
+                0x00000000        0x0 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text.fplib    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .text.ctype    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .text.ctype    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .text.ctype    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strchr.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strchr.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strchr.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncmp.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncmp.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncmp.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncpy.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncpy.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncpy.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrchr.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrchr.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrchr.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .text.ctype    0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+LOAD build\netwroktemp.o
+LOAD D:\arduino\Projects\netwroktemp\build\/lib_nano328_16.a
+LOAD D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a
+LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a
+LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xcc8
+ *(.vectors)
+ .vectors       0x00000000       0x68 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000068                __ctors_start = .
+ *(.ctors)
+ .ctors         0x00000068        0x2 build\netwroktemp.o
+ .ctors         0x0000006a        0x2 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .ctors         0x0000006c        0x2 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                0x0000006e                __ctors_end = .
+                0x0000006e                __dtors_start = .
+ *(.dtors)
+                0x0000006e                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000006e        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+                0x0000006e                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000006e        0xc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000007a       0x16 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x0000007a                __do_copy_data
+ .init4         0x00000090       0x10 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000090                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x000000a0       0x16 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+                0x000000a0                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000b6        0x8 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000be        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+                0x000000be                __vector_22
+                0x000000be                __vector_1
+                0x000000be                __vector_24
+                0x000000be                __vector_12
+                0x000000be                __bad_interrupt
+                0x000000be                __vector_6
+                0x000000be                __vector_3
+                0x000000be                __vector_23
+                0x000000be                __vector_25
+                0x000000be                __vector_11
+                0x000000be                __vector_13
+                0x000000be                __vector_17
+                0x000000be                __vector_7
+                0x000000be                __vector_5
+                0x000000be                __vector_4
+                0x000000be                __vector_9
+                0x000000be                __vector_2
+                0x000000be                __vector_21
+                0x000000be                __vector_15
+                0x000000be                __vector_8
+                0x000000be                __vector_14
+                0x000000be                __vector_10
+                0x000000be                __vector_20
+ .text          0x000000c2      0x204 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x000000c2                malloc
+                0x00000216                free
+                0x000002c6                . = ALIGN (0x2)
+ *(.text.*)
+ .text._GLOBAL__I_server
+                0x000002c6       0x22 build\netwroktemp.o
+ .text.loop     0x000002e8       0xb2 build\netwroktemp.o
+                0x000002e8                loop
+ .text.setup    0x0000039a       0x90 build\netwroktemp.o
+                0x0000039a                setup
+ .text._Z11serialEventv
+                0x0000042a        0x2 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x0000042a                serialEvent()
+ .text.__vector_18
+                0x0000042c       0x76 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x0000042c                __vector_18
+ .text._Z14serialEventRunv
+                0x000004a2       0x26 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x000004a2                serialEventRun()
+ .text.__vector_19
+                0x000004c8       0x76 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x000004c8                __vector_19
+ .text._ZN14HardwareSerial5beginEm
+                0x0000053e      0x10e D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x0000053e                HardwareSerial::begin(unsigned long)
+ .text._ZN14HardwareSerial9availableEv
+                0x0000064c       0x22 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x0000064c                HardwareSerial::available()
+ .text._ZN14HardwareSerial4peekEv
+                0x0000066e       0x40 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x0000066e                HardwareSerial::peek()
+ .text._ZN14HardwareSerial4readEv
+                0x000006ae       0x52 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x000006ae                HardwareSerial::read()
+ .text._ZN14HardwareSerial5flushEv
+                0x00000700       0x20 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x00000700                HardwareSerial::flush()
+ .text._ZN14HardwareSerial5writeEh
+                0x00000720       0x80 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x00000720                HardwareSerial::write(unsigned char)
+ .text._GLOBAL__I_rx_buffer
+                0x000007a0       0xac D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ .text._ZN9IPAddressC1Ehhhh
+                0x0000084c       0x18 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                0x0000084c                IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char)
+ .text._GLOBAL__I__ZN9IPAddressC2Ev
+                0x00000864       0x1e D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .text._ZNK9IPAddress7printToER5Print
+                0x00000882       0x84 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                0x00000882                IPAddress::printTo(Print&) const
+ .text.main     0x00000906       0x1e D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o)
+                0x00000906                main
+ .text._ZN5Print5writeEPKhj
+                0x00000924       0x54 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                0x00000924                Print::write(unsigned char const*, unsigned int)
+ .text._ZN5Print5printEc
+                0x00000978       0x10 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                0x00000978                Print::print(char)
+ .text._ZN5Print7printlnEv
+                0x00000988       0x40 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                0x00000988                Print::println()
+ .text._ZN5Print5writeEPKc
+                0x000009c8       0x38 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                0x000009c8                Print::write(char const*)
+ .text._ZN5Print11printNumberEmh
+                0x00000a00       0xc8 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                0x00000a00                Print::printNumber(unsigned long, unsigned char)
+ .text._ZN5Print5printEmi
+                0x00000ac8       0x1e D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                0x00000ac8                Print::print(unsigned long, int)
+ .text._ZN5Print5printEhi
+                0x00000ae6       0x24 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                0x00000ae6                Print::print(unsigned char, int)
+ .text._ZN5Print7printlnEPKc
+                0x00000b0a       0x26 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                0x00000b0a                Print::println(char const*)
+ .text.__vector_16
+                0x00000b30       0x90 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+                0x00000b30                __vector_16
+ .text.init     0x00000bc0       0x76 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+                0x00000bc0                init
+ .text.libgcc   0x00000c36       0x3e d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x00000c36                __mulsi3
+ .text.libgcc   0x00000c74       0x44 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000c74                __udivmodsi4
+ .text.libgcc   0x00000cb8        0xc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+                0x00000cbc                __tablejump__
+                0x00000cb8                __tablejump2__
+                0x00000cc4                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000cc4        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00000cc4                exit
+                0x00000cc4                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000cc4        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000cc8                _etext = .
+
+.data           0x00800100       0x34 load address 0x00000cc8
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100       0x12 build\netwroktemp.o
+ .data          0x00800112        0x6 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800114                __malloc_heap_start
+                0x00800116                __malloc_heap_end
+                0x00800112                __malloc_margin
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZZ5setupE3C.6
+                0x00800118        0x6 build\netwroktemp.o
+ .rodata._ZTV14HardwareSerial
+                0x0080011e       0x10 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x0080011e                vtable for HardwareSerial
+ .rodata._ZTV9IPAddress
+                0x0080012e        0x6 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                0x0080012e                vtable for IPAddress
+ *(.gnu.linkonce.d*)
+                0x00800134                . = ALIGN (0x2)
+                0x00800134                _edata = .
+                0x00800134                PROVIDE (__data_end, .)
+
+.bss            0x00800134       0xc9
+                0x00800134                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.server    0x00800134        0x6 build\netwroktemp.o
+                0x00800134                server
+ .bss._ZL11INADDR_NONE
+                0x0080013a        0x6 build\netwroktemp.o
+ .bss.rx_buffer
+                0x00800140       0x44 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x00800140                rx_buffer
+ .bss.tx_buffer
+                0x00800184       0x44 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x00800184                tx_buffer
+ .bss.Serial    0x008001c8       0x22 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                0x008001c8                Serial
+ .bss._ZL11INADDR_NONE
+                0x008001ea        0x6 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+ .bss.timer0_overflow_count
+                0x008001f0        0x4 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+                0x008001f0                timer0_overflow_count
+ .bss.timer0_millis
+                0x008001f4        0x4 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+                0x008001f4                timer0_millis
+ .bss.timer0_fract
+                0x008001f8        0x1 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+ *(COMMON)
+ COMMON         0x008001f9        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x008001f9                __brkval
+                0x008001fb                __flp
+                0x008001fd                PROVIDE (__bss_end, .)
+                0x00000cc8                __data_load_start = LOADADDR (.data)
+                0x00000cfc                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001fd        0x0
+                0x008001fd                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008001fd                PROVIDE (__noinit_end, .)
+                0x008001fd                _end = .
+                0x008001fd                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(build\netwroktemp_nano328.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::available()                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::begin(unsigned long)              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                                                  build\netwroktemp.o
+HardwareSerial::begin(unsigned long, unsigned char) D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::end()                             D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::flush()                           D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::operator bool()                   D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::peek()                            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::read()                            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+HardwareSerial::write(unsigned char)              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+IPAddress::IPAddress()                            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+IPAddress::IPAddress()                            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+IPAddress::IPAddress(unsigned char const*)        D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+IPAddress::IPAddress(unsigned char const*)        D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                                                  build\netwroktemp.o
+IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char) D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+IPAddress::IPAddress(unsigned long)               D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+IPAddress::IPAddress(unsigned long)               D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+IPAddress::operator=(unsigned char const*)        D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+IPAddress::operator=(unsigned long)               D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+IPAddress::operator==(unsigned char const*)       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+IPAddress::printTo(Print&) const                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+Print::print(Printable const&)                    D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::print(String const&)                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::print(__FlashStringHelper const*)          D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::print(char const*)                         D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::print(char)                                D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+Print::print(double, int)                         D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::print(int, int)                            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::print(long, int)                           D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::print(unsigned char, int)                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+Print::print(unsigned int, int)                   D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::print(unsigned long, int)                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::printFloat(double, unsigned char)          D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::printNumber(unsigned long, unsigned char)  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println()                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println(Printable const&)                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println(String const&)                     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println(__FlashStringHelper const*)        D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println(char const*)                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                                                  build\netwroktemp.o
+Print::println(char)                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println(double, int)                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println(int, int)                          D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println(long, int)                         D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println(unsigned char, int)                D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println(unsigned int, int)                 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::println(unsigned long, int)                D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::write(char const*)                         D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+Print::write(unsigned char const*, unsigned int)  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                                                  build\netwroktemp.o
+Serial                                            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                                                  build\netwroktemp.o
+String::String(String const&)                     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(String const&)                     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(char const*)                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(char const*)                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(char)                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(char)                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(int, unsigned char)                D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(int, unsigned char)                D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(long, unsigned char)               D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(long, unsigned char)               D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(unsigned char, unsigned char)      D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(unsigned char, unsigned char)      D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(unsigned int, unsigned char)       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(unsigned int, unsigned char)       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(unsigned long, unsigned char)      D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::String(unsigned long, unsigned char)      D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::changeBuffer(unsigned int)                D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::charAt(unsigned int) const                D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::compareTo(String const&) const            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::concat(String const&)                     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::concat(char const*)                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::concat(char const*, unsigned int)         D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::concat(char)                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::concat(int)                               D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::concat(long)                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::concat(unsigned char)                     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::concat(unsigned int)                      D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::concat(unsigned long)                     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::copy(char const*, unsigned int)           D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::endsWith(String const&) const             D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::equals(String const&) const               D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::equals(char const*) const                 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::equalsIgnoreCase(String const&) const     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::getBytes(unsigned char*, unsigned int, unsigned int) const D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::indexOf(String const&) const              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::indexOf(String const&, unsigned int) const D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::indexOf(char) const                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::indexOf(char, unsigned int) const         D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::invalidate()                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::lastIndexOf(String const&) const          D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::lastIndexOf(String const&, unsigned int) const D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::lastIndexOf(char) const                   D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::lastIndexOf(char, unsigned int) const     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::operator<(String const&) const            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::operator<=(String const&) const           D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::operator=(String const&)                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::operator=(char const*)                    D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::operator>(String const&) const            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::operator>=(String const&) const           D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::operator[](unsigned int)                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::operator[](unsigned int) const            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+String::replace(String const&, String const&)     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::replace(char, char)                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::reserve(unsigned int)                     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::setCharAt(unsigned int, char)             D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::startsWith(String const&) const           D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::startsWith(String const&, unsigned int) const D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::substring(unsigned int) const             D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::substring(unsigned int, unsigned int) const D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::toInt() const                             D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::toLowerCase()                             D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::toUpperCase()                             D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::trim()                                    D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::~String()                                 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+String::~String()                                 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+UIPClient::available()                            build\netwroktemp.o
+UIPClient::operator bool()                        build\netwroktemp.o
+UIPClient::read(unsigned char*, unsigned int)     build\netwroktemp.o
+UIPClient::stop()                                 build\netwroktemp.o
+UIPEthernet                                       build\netwroktemp.o
+UIPEthernetClass::begin(unsigned char const*, IPAddress) build\netwroktemp.o
+UIPServer::UIPServer(unsigned int)                build\netwroktemp.o
+UIPServer::available()                            build\netwroktemp.o
+UIPServer::begin()                                build\netwroktemp.o
+__addsf3                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__addsf3x                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+__bad_interrupt                                   d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__brkval                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__bss_end                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+__bss_start                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+__cmpsf2                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+__ctors_end                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+__ctors_start                                     d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+__ctype_isfalse                                   d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+__ctype_istrue                                    d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+__cxa_guard_abort                                 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+__cxa_guard_acquire                               D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+__cxa_guard_release                               D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+__cxa_pure_virtual                                D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                                                  build\netwroktemp.o
+__data_end                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__data_load_start                                 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__data_start                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__divsf3                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__divsf3_pse                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+__divsf3x                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+__do_clear_bss                                    d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                                                  build\netwroktemp.o
+__do_copy_data                                    d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                                                  build\netwroktemp.o
+__do_global_ctors                                 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                                                  build\netwroktemp.o
+__epilogue_restores__                             d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__eqsf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+__fixsfsi                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__fixunssfsi                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__floatsisf                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__floatunsisf                                     d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__flp                                             d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__fp_cmp                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+__fp_inf                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_nan                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_pscA                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_pscB                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_round                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+__fp_split3                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__fp_splitA                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+__fp_szero                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+__fp_zero                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+__gesf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+__gtsf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__heap_end                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__heap_start                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__init                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__lesf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__ltsf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__malloc_heap_end                                 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__malloc_heap_start                               d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__malloc_margin                                   d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__mulsf3                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__mulsf3_pse                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+__mulsf3x                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+__mulsi3                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__mulsi_const_10                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+__nesf2                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+__prologue_saves__                                d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__stack                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__subsf3                                          d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__tablejump2__                                    d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+__tablejump__                                     d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ctors.o)
+__udivmodhi4                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+__udivmodsi4                                      d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+__unordsf2                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+__vector_1                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_10                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_11                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_12                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_13                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_14                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_15                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_16                                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_17                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_18                                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_19                                       D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_2                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_20                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_21                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_22                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_23                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_24                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_25                                       d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_3                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_4                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_5                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_6                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_7                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_8                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_9                                        d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vector_default                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+__vectors                                         d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+_exit                                             d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+atol                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+delay                                             D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+delayMicroseconds                                 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+exit                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+free                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+                                                  build\netwroktemp.o
+init                                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o)
+isspace                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(isspace.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+itoa                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+loop                                              build\netwroktemp.o
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o)
+ltoa                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+main                                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
+malloc                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+                                                  build\netwroktemp.o
+memcmp                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcmp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+memcpy                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+memmove                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmove.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+micros                                            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+millis                                            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+operator delete(void*)                            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+operator delete[](void*)                          D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+operator new(unsigned int)                        D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+operator new[](unsigned int)                      D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(new.cpp.o)
+operator+(StringSumHelper const&, String const&)  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, char const*)    D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, char)           D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, int)            D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, long)           D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned char)  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned int)   D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned long)  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+realloc                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+rx_buffer                                         D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+serialEvent()                                     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+serialEventRun()                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o)
+server                                            build\netwroktemp.o
+setup                                             build\netwroktemp.o
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(main.cpp.o)
+strchr                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strchr.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+strcmp                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+strcpy                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+strncmp                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncmp.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+strncpy                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strncpy.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+strrchr                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrchr.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+strrev                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strrev.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                                                  d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(itoa.o)
+strstr                                            d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(strstr.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+timer0_millis                                     D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+timer0_overflow_count                             D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(wiring.c.o)
+tolower                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(tolower.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+toupper                                           d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(toupper.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+tx_buffer                                         D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+ultoa                                             d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+utoa                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(utoa.o)
+                                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(WString.cpp.o)
+vtable for HardwareSerial                         D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
+vtable for IPAddress                              D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(IPAddress.cpp.o)
+                                                  build\netwroktemp.o
+vtable for Print                                  D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(Print.cpp.o)
+vtable for Printable                              build\netwroktemp.o
+vtable for Stream                                 D:\arduino\Projects\netwroktemp\build\/core_nano328_16.a(HardwareSerial.cpp.o)
