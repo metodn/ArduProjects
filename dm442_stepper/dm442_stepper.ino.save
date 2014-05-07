@@ -46,7 +46,7 @@ bool mstate = LOW;  //motor state low or hih
 int direction = FORWARD;
 
 #define RKROG  73.0000   //premer v mm
-#define PULREV   4000  ///PREPISI iz  pulse /rev  koliko pulzov je potrebno za 1 obrat
+#define PULREV   800  ///PREPISI iz  pulse /rev  koliko pulzov je potrebno za 1 obrat
 unsigned int pulrev = PULREV;   ///PULses per REVolution
 unsigned int fak_kor_za_izr= 1;   //na krmnlinuku je nastavljano 400
 #define defaultdelay 34  // :34[ms] 151.33spd: 351.63cm
@@ -89,26 +89,28 @@ void izpis_eeprom(){
 
 
 void setup() {
-  // set the digital pin as output:
-  pinMode(PinPUL, OUTPUT);
-  pinMode(PinDIR, OUTPUT);
-  pinMode(PinENA, OUTPUT);
-  pinMode(PinLED0, OUTPUT);
-  pinMode(PinLED1, OUTPUT);
+    // set the digital pin as output:
+    pinMode(PinPUL, OUTPUT);
+    pinMode(PinDIR, OUTPUT);
+    pinMode(PinENA, OUTPUT);
+    pinMode(PinLED0, OUTPUT);
+    pinMode(PinLED1, OUTPUT);
 
-  pinMode(PinSW0, INPUT);
-  pinMode(PinSW1, INPUT);
-  digitalWrite(PinENA, LOW);   ///LOW for turning on Ad4988
+    pinMode(PinSW0, INPUT);
+    pinMode(PinSW1, INPUT);
+    digitalWrite(PinENA, LOW);   ///LOW for turning on Ad4988
 
-  Serial.begin(115200);
-  sTime = millis();
-  sKorakov = 0;
+    Serial.begin(115200);
+    sTime = millis();
+    sKorakov = 0;
 
-  spd    = EEPROM.read(1)+spdFACTOR;
-  step_delay_us = EEPROM.read(2);
-  direction     = EEPROM.read(3);
-   digitalWrite(PinDIR, direction);
-  izpis_eeprom();
+    spd    = EEPROM.read(1)+spdFACTOR;
+    step_delay_us = EEPROM.read(2);
+    direction     = EEPROM.read(3);
+    if (direction==FORWARD)  digitalWrite(PinDIR, HIGH);
+    if (direction==BACKWARD)  digitalWrite(PinDIR, LOW);
+    digitalWrite(PinDIR, direction);
+    izpis_eeprom();
 }
 //########################################################################################
 //http://arduinobasics.blogspot.com/search/label/Serial%20Monitor
@@ -255,10 +257,12 @@ void loop()
                 spd    = EEPROM.read(1)+spdFACTOR;             //v eeprom pise od 1 do 255!!!!!!!
                 step_delay_us = EEPROM.read(2);
                 direction     = EEPROM.read(3);
-                digitalWrite(PinDIR, direction);
+                if (direction==FORWARD)  digitalWrite(PinDIR, HIGH);
+                if (direction==BACKWARD)  digitalWrite(PinDIR, LOW);
                 izpis_eeprom();
-                //ms=0;
+                //ms=1;    //aktiviraj potenciometer
                 Serial.print("]\r");
+                 ms=!ms;
             }
 
             if (content.compareTo("LEFT") ==0  || content.compareTo("L") ==0   || content.compareTo("W") ==0){
@@ -267,7 +271,7 @@ void loop()
                 EEPROM.write(2,step_delay_us);
                 EEPROM.write(3,direction);
                 izpis_eeprom();
-                //ms=1;
+                //ms=0;
                 Serial.print("]\r");
             }
 
@@ -278,10 +282,11 @@ void loop()
                 //if (step_delay_us <100 ) step_delay_us=100;
         //        ms=1;                    //set the wariable that defines manual operation
                 spd=spd-1*stepFACTOR;
-                if (spd <=100 ) spd=100;  //lIMIT NA DOL
+                if (spd <=10 ) spd=10;  //lIMIT NA DOL
                 Serial.print( char(12) );  //send newline
                 Serial.print(spd);
                 Serial.print("\r");
+
             }
 
             if (content.compareTo("U") ==0){    //DOWN
@@ -307,10 +312,10 @@ void loop()
             if (content.compareTo("I") ==0){     //DIRECTION
                 if (direction == FORWARD){
                     direction = BACKWARD;
-                    digitalWrite(PinDIR, HIGH); //forward
+                    digitalWrite(PinDIR, LOW); //forward
                 } else if(direction == BACKWARD) {
                     direction = FORWARD;
-                    digitalWrite(PinDIR, LOW); //backward
+                    digitalWrite(PinDIR, HIGH); //backward
                 }
                 Serial.print("Direction ");
                 Serial.print(direction);
@@ -356,14 +361,16 @@ void loop()
     }//end delay replacment3 fro SERIAL READ
 
     if (ms==1 && currentMillis - timeOfLastEvent2 > 600   ){  //ce je branje pot vklopljeno
-
-
+                analogReference(DEFAULT);
                 sensorReading = analogRead(A1);
-                spd1 = map(sensorReading, 1, 1023, 1, 50);  //  g, 1, 1023, 1, 50);  tukaj je bila liita sa nastavi hitrost of 2 do 100
-                Serial.print("\r pot==>");
-                Serial.print( spd1);
+                     //map(value, fromLow, fromHigh, toLow, toHigh)
+                spd1 = map(sensorReading, 0, 1023, 1, 5);  //  g, 1, 1023, 1, 50);  tukaj je bila liita sa nastavi hitrost of 2 do 100
+
+                stepFACTOR=spd1*5;
+                Serial.print("\r Sped factor==>");
+                Serial.print( sensorReading);
                 Serial.print("<");
-                Serial.print(sensorReading);
+                Serial.print(stepFACTOR);
                 Serial.print(" \r");
                 timeOfLastEvent2 = currentMillis;  //update timer with last event
     }
@@ -374,13 +381,13 @@ void loop()
 
 
 
-    float motorSpeed = 1000.0/((spd/60.0)/(obseg(RKROG)/PULREV));  //za izracuna cm/min v delay[ms] -> kar definira 1000
+    float motorSpeed = 10000.0/((spd/60.0)/(obseg(RKROG)/PULREV));  //za izracuna cm/min v delay[ms] -> kar definira 1000
 
 
 
         uDTmp = micros() - uDt ;  //zracunal razliko  iz presnega delaya
         uPt = micros();    //start timer for pt----
-        bool ret = one_step_function ( PinPUL, PinDIR, motorSpeed, direction );
+      bool ret = one_step_function ( PinPUL, PinDIR, motorSpeed, direction );                ///CALLL MOTOR
         uPTmp = micros() - uPt;
 
          if (ret==1){
@@ -454,7 +461,7 @@ void loop()
         //Serial.print( hitr );
 
         Serial.print( char(12) );
-        Serial.print(" ");
+        Serial.print("    ");
         float obs = obseg(RKROG);  //premer v mm
         ///Serial.print(obs/400);  Serial.print("dozlina na 1 impilz v cm");
         float dol1imp=((obs/PULREV)*pulses*60)/10; /// NE VEM AKAJ JE TU /100

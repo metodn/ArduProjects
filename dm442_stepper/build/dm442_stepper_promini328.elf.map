@@ -13,7 +13,7 @@ D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
                               build\dm442_stepper.o (millis)
 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
-                              build\dm442_stepper.o (analogRead)
+                              build\dm442_stepper.o (analogReference)
 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_digital.c.o)
                               build\dm442_stepper.o (pinMode)
 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WMath.cpp.o)
@@ -255,8 +255,6 @@ Discarded input sections
  .text          0x00000000        0x0 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
  .data          0x00000000        0x0 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
  .bss           0x00000000        0x0 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
- .text.analogReference
-                0x00000000        0x0 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
  .text.analogWrite
                 0x00000000        0x0 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
  .text          0x00000000        0x0 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_digital.c.o)
@@ -683,7 +681,7 @@ LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x2588
+.text           0x00000000     0x25a8
  *(.vectors)
  .vectors       0x00000000       0x68 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm328p.o
                 0x00000000                __vectors
@@ -791,219 +789,222 @@ LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  .text._Z12izpis_eepromv
                 0x000005c6       0x9a build\dm442_stepper.o
                 0x000005c6                izpis_eeprom()
- .text.loop     0x00000660      0x95a build\dm442_stepper.o
+ .text.loop     0x00000660      0x974 build\dm442_stepper.o
                 0x00000660                loop
- .text.setup    0x00000fba       0xf6 build\dm442_stepper.o
-                0x00000fba                setup
+ .text.setup    0x00000fd4       0xf6 build\dm442_stepper.o
+                0x00000fd4                setup
  .text._ZN11EEPROMClass4readEi
-                0x000010b0        0xe D:\arduino\Projects\dm442_stepper\build\/lib_promini328_16.a(EEPROM.cpp.o)
-                0x000010b0                EEPROMClass::read(int)
+                0x000010ca        0xe D:\arduino\Projects\dm442_stepper\build\/lib_promini328_16.a(EEPROM.cpp.o)
+                0x000010ca                EEPROMClass::read(int)
  .text._ZN11EEPROMClass5writeEih
-                0x000010be       0x18 D:\arduino\Projects\dm442_stepper\build\/lib_promini328_16.a(EEPROM.cpp.o)
-                0x000010be                EEPROMClass::write(int, unsigned char)
+                0x000010d8       0x18 D:\arduino\Projects\dm442_stepper\build\/lib_promini328_16.a(EEPROM.cpp.o)
+                0x000010d8                EEPROMClass::write(int, unsigned char)
  .text._Z11serialEventv
-                0x000010d6        0x2 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x000010d6                serialEvent()
+                0x000010f0        0x2 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x000010f0                serialEvent()
  .text.__vector_18
-                0x000010d8       0x76 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x000010d8                __vector_18
+                0x000010f2       0x76 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x000010f2                __vector_18
  .text._Z14serialEventRunv
-                0x0000114e       0x26 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x0000114e                serialEventRun()
+                0x00001168       0x26 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x00001168                serialEventRun()
  .text.__vector_19
-                0x00001174       0x76 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x00001174                __vector_19
+                0x0000118e       0x76 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x0000118e                __vector_19
  .text._ZN14HardwareSerial5beginEm
-                0x000011ea      0x10e D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x000011ea                HardwareSerial::begin(unsigned long)
+                0x00001204      0x10e D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x00001204                HardwareSerial::begin(unsigned long)
  .text._ZN14HardwareSerial9availableEv
-                0x000012f8       0x22 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x000012f8                HardwareSerial::available()
+                0x00001312       0x22 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x00001312                HardwareSerial::available()
  .text._ZN14HardwareSerial4peekEv
-                0x0000131a       0x40 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x0000131a                HardwareSerial::peek()
+                0x00001334       0x40 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x00001334                HardwareSerial::peek()
  .text._ZN14HardwareSerial4readEv
-                0x0000135a       0x52 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x0000135a                HardwareSerial::read()
+                0x00001374       0x52 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x00001374                HardwareSerial::read()
  .text._ZN14HardwareSerial5flushEv
-                0x000013ac       0x20 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x000013ac                HardwareSerial::flush()
+                0x000013c6       0x20 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x000013c6                HardwareSerial::flush()
  .text._ZN14HardwareSerial5writeEh
-                0x000013cc       0x80 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x000013cc                HardwareSerial::write(unsigned char)
+                0x000013e6       0x80 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x000013e6                HardwareSerial::write(unsigned char)
  .text._GLOBAL__I_rx_buffer
-                0x0000144c       0xac D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
- .text.main     0x000014f8       0x1e D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(main.cpp.o)
-                0x000014f8                main
+                0x00001466       0xac D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+ .text.main     0x00001512       0x1e D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(main.cpp.o)
+                0x00001512                main
  .text._ZN5Print5writeEPKhj
-                0x00001516       0x54 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x00001516                Print::write(unsigned char const*, unsigned int)
+                0x00001530       0x54 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x00001530                Print::write(unsigned char const*, unsigned int)
  .text._ZN5Print5printEc
-                0x0000156a       0x10 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x0000156a                Print::print(char)
+                0x00001584       0x10 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x00001584                Print::print(char)
  .text._ZN5Print5writeEPKc
-                0x0000157a       0x38 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x0000157a                Print::write(char const*)
+                0x00001594       0x38 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x00001594                Print::write(char const*)
  .text._ZN5Print11printNumberEmh
-                0x000015b2       0xc8 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x000015b2                Print::printNumber(unsigned long, unsigned char)
+                0x000015cc       0xc8 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x000015cc                Print::printNumber(unsigned long, unsigned char)
  .text._ZN5Print5printEmi
-                0x0000167a       0x1e D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x0000167a                Print::print(unsigned long, int)
+                0x00001694       0x1e D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x00001694                Print::print(unsigned long, int)
  .text._ZN5Print5printEji
-                0x00001698       0x22 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x00001698                Print::print(unsigned int, int)
+                0x000016b2       0x22 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x000016b2                Print::print(unsigned int, int)
  .text._ZN5Print5printEhi
-                0x000016ba       0x24 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x000016ba                Print::print(unsigned char, int)
+                0x000016d4       0x24 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x000016d4                Print::print(unsigned char, int)
  .text._ZN5Print5printEli
-                0x000016de       0x80 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x000016de                Print::print(long, int)
+                0x000016f8       0x80 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x000016f8                Print::print(long, int)
  .text._ZN5Print5printEii
-                0x0000175e       0x26 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x0000175e                Print::print(int, int)
+                0x00001778       0x26 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x00001778                Print::print(int, int)
  .text._ZN5Print5printEPKc
-                0x00001784        0x6 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x00001784                Print::print(char const*)
+                0x0000179e        0x6 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x0000179e                Print::print(char const*)
  .text._ZN5Print10printFloatEdh
-                0x0000178a      0x1c8 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x0000178a                Print::printFloat(double, unsigned char)
+                0x000017a4      0x1c8 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x000017a4                Print::printFloat(double, unsigned char)
  .text._ZN5Print5printEdi
-                0x00001952        0x6 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x00001952                Print::print(double, int)
+                0x0000196c        0x6 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x0000196c                Print::print(double, int)
  .text._ZN5Print5printERK6String
-                0x00001958       0x66 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
-                0x00001958                Print::print(String const&)
+                0x00001972       0x66 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+                0x00001972                Print::print(String const&)
  .text.__vector_16
-                0x000019be       0x90 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
-                0x000019be                __vector_16
- .text.millis   0x00001a4e       0x1c D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
-                0x00001a4e                millis
- .text.micros   0x00001a6a       0x4c D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
-                0x00001a6a                micros
+                0x000019d8       0x90 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
+                0x000019d8                __vector_16
+ .text.millis   0x00001a68       0x1c D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
+                0x00001a68                millis
+ .text.micros   0x00001a84       0x4c D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
+                0x00001a84                micros
  .text.delayMicroseconds
-                0x00001ab6       0x14 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
-                0x00001ab6                delayMicroseconds
- .text.init     0x00001aca       0x76 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
-                0x00001aca                init
+                0x00001ad0       0x14 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
+                0x00001ad0                delayMicroseconds
+ .text.init     0x00001ae4       0x76 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
+                0x00001ae4                init
+ .text.analogReference
+                0x00001b5a        0x6 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
+                0x00001b5a                analogReference
  .text.analogRead
-                0x00001b40       0x44 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
-                0x00001b40                analogRead
- .text.pinMode  0x00001b84       0x7e D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_digital.c.o)
-                0x00001b84                pinMode
+                0x00001b60       0x44 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
+                0x00001b60                analogRead
+ .text.pinMode  0x00001ba4       0x7e D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_digital.c.o)
+                0x00001ba4                pinMode
  .text.turnOffPWM
-                0x00001c02       0x5a D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_digital.c.o)
+                0x00001c22       0x5a D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_digital.c.o)
  .text.digitalWrite
-                0x00001c5c       0x66 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_digital.c.o)
-                0x00001c5c                digitalWrite
+                0x00001c7c       0x66 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_digital.c.o)
+                0x00001c7c                digitalWrite
  .text.digitalRead
-                0x00001cc2       0x60 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_digital.c.o)
-                0x00001cc2                digitalRead
+                0x00001ce2       0x60 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_digital.c.o)
+                0x00001ce2                digitalRead
  .text._Z3maplllll
-                0x00001d22       0x92 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WMath.cpp.o)
-                0x00001d22                map(long, long, long, long, long)
+                0x00001d42       0x92 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WMath.cpp.o)
+                0x00001d42                map(long, long, long, long, long)
  .text._ZNK6StringixEj
-                0x00001db4       0x22 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00001db4                String::operator[](unsigned int) const
+                0x00001dd4       0x22 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00001dd4                String::operator[](unsigned int) const
  .text._ZNK6String6equalsEPKc
-                0x00001dd6       0x46 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00001dd6                String::equals(char const*) const
+                0x00001df6       0x46 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00001df6                String::equals(char const*) const
  .text._ZNK6String9compareToERKS_
-                0x00001e1c       0x66 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00001e1c                String::compareTo(String const&) const
+                0x00001e3c       0x66 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00001e3c                String::compareTo(String const&) const
  .text._ZN6String12changeBufferEj
-                0x00001e82       0x34 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00001e82                String::changeBuffer(unsigned int)
+                0x00001ea2       0x34 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00001ea2                String::changeBuffer(unsigned int)
  .text._ZN6String7reserveEj
-                0x00001eb6       0x38 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00001eb6                String::reserve(unsigned int)
+                0x00001ed6       0x38 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00001ed6                String::reserve(unsigned int)
  .text._ZN6String6concatEPKcj
-                0x00001eee       0x5a D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00001eee                String::concat(char const*, unsigned int)
+                0x00001f0e       0x5a D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00001f0e                String::concat(char const*, unsigned int)
  .text._ZN6String6concatEc
-                0x00001f48       0x26 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00001f48                String::concat(char)
+                0x00001f68       0x26 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00001f68                String::concat(char)
  .text._ZN6String10invalidateEv
-                0x00001f6e       0x24 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00001f6e                String::invalidate()
+                0x00001f8e       0x24 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00001f8e                String::invalidate()
  .text._ZN6String4copyEPKcj
-                0x00001f92       0x42 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00001f92                String::copy(char const*, unsigned int)
+                0x00001fb2       0x42 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00001fb2                String::copy(char const*, unsigned int)
  .text._ZN6StringC1EPKc
-                0x00001fd4       0x34 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00001fd4                String::String(char const*)
+                0x00001ff4       0x34 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00001ff4                String::String(char const*)
  .text._ZN6StringD1Ev
-                0x00002008        0xc D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
-                0x00002008                String::~String()
- .text.fplib    0x00002014        0xa d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                0x00002014                __subsf3
-                0x00002016                __addsf3
- .text.fplib    0x0000201e       0xc0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
-                0x00002038                __addsf3x
- .text.fplib    0x000020de        0x8 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
-                0x000020de                __lesf2
-                0x000020de                __nesf2
-                0x000020de                __eqsf2
-                0x000020de                __cmpsf2
-                0x000020de                __ltsf2
- .text.fplib    0x000020e6        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                0x000020e6                __divsf3
- .text.fplib    0x000020ea       0xcc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                0x00002100                __divsf3x
-                0x00002104                __divsf3_pse
- .text.fplib    0x000021b6        0xa d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
-                0x000021b6                __fixsfsi
- .text.fplib    0x000021c0       0x58 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                0x000021c0                __fixunssfsi
- .text.fplib    0x00002218       0x7a d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                0x0000221c                __floatsisf
-                0x00002218                __floatunsisf
- .text.fplib    0x00002292       0x48 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
-                0x00002292                __fp_cmp
- .text.fplib    0x000022da        0xc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x000022da                __fp_inf
- .text.fplib    0x000022e6        0x6 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x000022e6                __fp_nan
- .text.fplib    0x000022ec        0xe d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x000022ec                __fp_pscA
- .text.fplib    0x000022fa        0xe d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x000022fa                __fp_pscB
- .text.fplib    0x00002308       0x22 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x00002308                __fp_round
- .text.fplib    0x0000232a       0x44 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x0000232a                __fp_split3
-                0x0000233a                __fp_splitA
- .text.fplib    0x0000236e        0xe d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x0000236e                __fp_zero
-                0x00002370                __fp_szero
- .text.fplib    0x0000237c        0x8 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
-                0x0000237c                __gtsf2
-                0x0000237c                __gesf2
- .text.fplib    0x00002384        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x00002384                __mulsf3
- .text.fplib    0x00002388       0xc2 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x000023a0                __mulsf3_pse
-                0x0000239c                __mulsf3x
- .text.fplib    0x0000244a        0x8 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
-                0x0000244a                __unordsf2
- .text.libgcc   0x00002452       0x3e d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
-                0x00002452                __mulsi3
- .text.libgcc   0x00002490       0x44 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
-                0x00002490                __udivmodsi4
- .text.libgcc   0x000024d4       0x36 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
-                0x000024d4                __divmodsi4
- .text.libgcc   0x0000250a        0xc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
-                0x0000250e                __tablejump__
-                0x0000250a                __tablejump2__
- .text.libgcc   0x00002516       0x38 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
-                0x00002516                __prologue_saves__
- .text.libgcc   0x0000254e       0x36 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
-                0x0000254e                __epilogue_restores__
-                0x00002584                . = ALIGN (0x2)
+                0x00002028        0xc D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(WString.cpp.o)
+                0x00002028                String::~String()
+ .text.fplib    0x00002034        0xa d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x00002034                __subsf3
+                0x00002036                __addsf3
+ .text.fplib    0x0000203e       0xc0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x00002058                __addsf3x
+ .text.fplib    0x000020fe        0x8 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                0x000020fe                __lesf2
+                0x000020fe                __nesf2
+                0x000020fe                __eqsf2
+                0x000020fe                __cmpsf2
+                0x000020fe                __ltsf2
+ .text.fplib    0x00002106        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00002106                __divsf3
+ .text.fplib    0x0000210a       0xcc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00002120                __divsf3x
+                0x00002124                __divsf3_pse
+ .text.fplib    0x000021d6        0xa d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                0x000021d6                __fixsfsi
+ .text.fplib    0x000021e0       0x58 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x000021e0                __fixunssfsi
+ .text.fplib    0x00002238       0x7a d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x0000223c                __floatsisf
+                0x00002238                __floatunsisf
+ .text.fplib    0x000022b2       0x48 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                0x000022b2                __fp_cmp
+ .text.fplib    0x000022fa        0xc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x000022fa                __fp_inf
+ .text.fplib    0x00002306        0x6 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00002306                __fp_nan
+ .text.fplib    0x0000230c        0xe d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x0000230c                __fp_pscA
+ .text.fplib    0x0000231a        0xe d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x0000231a                __fp_pscB
+ .text.fplib    0x00002328       0x22 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x00002328                __fp_round
+ .text.fplib    0x0000234a       0x44 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x0000234a                __fp_split3
+                0x0000235a                __fp_splitA
+ .text.fplib    0x0000238e        0xe d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x0000238e                __fp_zero
+                0x00002390                __fp_szero
+ .text.fplib    0x0000239c        0x8 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                0x0000239c                __gtsf2
+                0x0000239c                __gesf2
+ .text.fplib    0x000023a4        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x000023a4                __mulsf3
+ .text.fplib    0x000023a8       0xc2 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x000023c0                __mulsf3_pse
+                0x000023bc                __mulsf3x
+ .text.fplib    0x0000246a        0x8 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                0x0000246a                __unordsf2
+ .text.libgcc   0x00002472       0x3e d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x00002472                __mulsi3
+ .text.libgcc   0x000024b0       0x44 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x000024b0                __udivmodsi4
+ .text.libgcc   0x000024f4       0x36 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                0x000024f4                __divmodsi4
+ .text.libgcc   0x0000252a        0xc d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_tablejump.o)
+                0x0000252e                __tablejump__
+                0x0000252a                __tablejump2__
+ .text.libgcc   0x00002536       0x38 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00002536                __prologue_saves__
+ .text.libgcc   0x0000256e       0x36 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x0000256e                __epilogue_restores__
+                0x000025a4                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00002584        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x00002584                exit
-                0x00002584                _exit
+ .fini9         0x000025a4        0x0 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x000025a4                exit
+                0x000025a4                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -1022,124 +1023,125 @@ LOAD d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00002584        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .fini0         0x000025a4        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00002588                _etext = .
+                0x000025a8                _etext = .
 
-.data           0x00800100       0xce load address 0x00002588
+.data           0x00800100       0xda load address 0x000025a8
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
- .data          0x00800100       0x9f build\dm442_stepper.o
- .data          0x0080019f        0xe D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
- .data          0x008001ad        0x6 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x008001af                __malloc_heap_start
-                0x008001b1                __malloc_heap_end
-                0x008001ad                __malloc_margin
+ .data          0x00800100       0xaa build\dm442_stepper.o
+ .data          0x008001aa        0xe D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(Print.cpp.o)
+ .data          0x008001b8        0x6 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x008001ba                __malloc_heap_start
+                0x008001bc                __malloc_heap_end
+                0x008001b8                __malloc_margin
  *(.data*)
  .data.direction
-                0x008001b3        0x2 build\dm442_stepper.o
-                0x008001b3                direction
- .data.pulrev   0x008001b5        0x2 build\dm442_stepper.o
-                0x008001b5                pulrev
+                0x008001be        0x2 build\dm442_stepper.o
+                0x008001be                direction
+ .data.pulrev   0x008001c0        0x2 build\dm442_stepper.o
+                0x008001c0                pulrev
  .data.sensorReading
-                0x008001b7        0x2 build\dm442_stepper.o
-                0x008001b7                sensorReading
- .data.spd      0x008001b9        0x2 build\dm442_stepper.o
-                0x008001b9                spd
+                0x008001c2        0x2 build\dm442_stepper.o
+                0x008001c2                sensorReading
+ .data.spd      0x008001c4        0x2 build\dm442_stepper.o
+                0x008001c4                spd
  .data.stepFACTOR
-                0x008001bb        0x2 build\dm442_stepper.o
-                0x008001bb                stepFACTOR
+                0x008001c6        0x2 build\dm442_stepper.o
+                0x008001c6                stepFACTOR
  .data.analog_reference
-                0x008001bd        0x1 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
-                0x008001bd                analog_reference
+                0x008001c8        0x1 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
+                0x008001c8                analog_reference
  *(.rodata)
  *(.rodata*)
  .rodata._ZTV14HardwareSerial
-                0x008001be       0x10 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x008001be                vtable for HardwareSerial
+                0x008001c9       0x10 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x008001c9                vtable for HardwareSerial
  *(.gnu.linkonce.d*)
-                0x008001ce                . = ALIGN (0x2)
-                0x008001ce                _edata = .
-                0x008001ce                PROVIDE (__data_end, .)
+                0x008001da                . = ALIGN (0x2)
+ *fill*         0x008001d9        0x1 00
+                0x008001da                _edata = .
+                0x008001da                PROVIDE (__data_end, .)
 
-.bss            0x008001ce       0xf3
-                0x008001ce                PROVIDE (__bss_start, .)
+.bss            0x008001da       0xf3
+                0x008001da                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss.timeOfLastEvent
-                0x008001ce        0x4 build\dm442_stepper.o
-                0x008001ce                timeOfLastEvent
- .bss.timeOfLastEvent1
-                0x008001d2        0x4 build\dm442_stepper.o
-                0x008001d2                timeOfLastEvent1
- .bss.timeOfLastEvent2
-                0x008001d6        0x4 build\dm442_stepper.o
-                0x008001d6                timeOfLastEvent2
- .bss.timeOfLastEvent3
                 0x008001da        0x4 build\dm442_stepper.o
-                0x008001da                timeOfLastEvent3
- .bss.uPt       0x008001de        0x4 build\dm442_stepper.o
-                0x008001de                uPt
- .bss.uDt       0x008001e2        0x4 build\dm442_stepper.o
-                0x008001e2                uDt
- .bss.uDTmp     0x008001e6        0x4 build\dm442_stepper.o
-                0x008001e6                uDTmp
- .bss.uPTmp     0x008001ea        0x4 build\dm442_stepper.o
-                0x008001ea                uPTmp
- .bss.sTime     0x008001ee        0x4 build\dm442_stepper.o
-                0x008001ee                sTime
- .bss.sKorakov  0x008001f2        0x4 build\dm442_stepper.o
-                0x008001f2                sKorakov
- .bss.spd1      0x008001f6        0x4 build\dm442_stepper.o
-                0x008001f6                spd1
- .bss.ms        0x008001fa        0x1 build\dm442_stepper.o
-                0x008001fa                ms
+                0x008001da                timeOfLastEvent
+ .bss.timeOfLastEvent1
+                0x008001de        0x4 build\dm442_stepper.o
+                0x008001de                timeOfLastEvent1
+ .bss.timeOfLastEvent2
+                0x008001e2        0x4 build\dm442_stepper.o
+                0x008001e2                timeOfLastEvent2
+ .bss.timeOfLastEvent3
+                0x008001e6        0x4 build\dm442_stepper.o
+                0x008001e6                timeOfLastEvent3
+ .bss.uPt       0x008001ea        0x4 build\dm442_stepper.o
+                0x008001ea                uPt
+ .bss.uDt       0x008001ee        0x4 build\dm442_stepper.o
+                0x008001ee                uDt
+ .bss.uDTmp     0x008001f2        0x4 build\dm442_stepper.o
+                0x008001f2                uDTmp
+ .bss.uPTmp     0x008001f6        0x4 build\dm442_stepper.o
+                0x008001f6                uPTmp
+ .bss.sTime     0x008001fa        0x4 build\dm442_stepper.o
+                0x008001fa                sTime
+ .bss.sKorakov  0x008001fe        0x4 build\dm442_stepper.o
+                0x008001fe                sKorakov
+ .bss.spd1      0x00800202        0x4 build\dm442_stepper.o
+                0x00800202                spd1
+ .bss.ms        0x00800206        0x1 build\dm442_stepper.o
+                0x00800206                ms
  .bss.izpis_pul
-                0x008001fb        0x1 build\dm442_stepper.o
-                0x008001fb                izpis_pul
+                0x00800207        0x1 build\dm442_stepper.o
+                0x00800207                izpis_pul
  .bss.step_delay_us
-                0x008001fc        0x4 build\dm442_stepper.o
-                0x008001fc                step_delay_us
+                0x00800208        0x4 build\dm442_stepper.o
+                0x00800208                step_delay_us
  .bss.PULScount
-                0x00800200        0x4 build\dm442_stepper.o
-                0x00800200                PULScount
+                0x0080020c        0x4 build\dm442_stepper.o
+                0x0080020c                PULScount
  .bss.LastPULScount
-                0x00800204        0x4 build\dm442_stepper.o
-                0x00800204                LastPULScount
- .bss.BUT0ST    0x00800208        0x1 build\dm442_stepper.o
-                0x00800208                BUT0ST
- .bss.EEPROM    0x00800209        0x1 D:\arduino\Projects\dm442_stepper\build\/lib_promini328_16.a(EEPROM.cpp.o)
-                0x00800209                EEPROM
+                0x00800210        0x4 build\dm442_stepper.o
+                0x00800210                LastPULScount
+ .bss.BUT0ST    0x00800214        0x1 build\dm442_stepper.o
+                0x00800214                BUT0ST
+ .bss.EEPROM    0x00800215        0x1 D:\arduino\Projects\dm442_stepper\build\/lib_promini328_16.a(EEPROM.cpp.o)
+                0x00800215                EEPROM
  .bss.rx_buffer
-                0x0080020a       0x44 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x0080020a                rx_buffer
+                0x00800216       0x44 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x00800216                rx_buffer
  .bss.tx_buffer
-                0x0080024e       0x44 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x0080024e                tx_buffer
- .bss.Serial    0x00800292       0x22 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
-                0x00800292                Serial
+                0x0080025a       0x44 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x0080025a                tx_buffer
+ .bss.Serial    0x0080029e       0x22 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(HardwareSerial.cpp.o)
+                0x0080029e                Serial
  .bss.timer0_overflow_count
-                0x008002b4        0x4 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
-                0x008002b4                timer0_overflow_count
+                0x008002c0        0x4 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
+                0x008002c0                timer0_overflow_count
  .bss.timer0_millis
-                0x008002b8        0x4 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
-                0x008002b8                timer0_millis
+                0x008002c4        0x4 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
+                0x008002c4                timer0_millis
  .bss.timer0_fract
-                0x008002bc        0x1 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
+                0x008002c8        0x1 D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring.c.o)
  *(COMMON)
- COMMON         0x008002bd        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x008002bd                __brkval
-                0x008002bf                __flp
-                0x008002c1                PROVIDE (__bss_end, .)
-                0x00002588                __data_load_start = LOADADDR (.data)
-                0x00002656                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008002c9        0x4 d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x008002c9                __brkval
+                0x008002cb                __flp
+                0x008002cd                PROVIDE (__bss_end, .)
+                0x000025a8                __data_load_start = LOADADDR (.data)
+                0x00002682                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008002c1        0x0
-                0x008002c1                PROVIDE (__noinit_start, .)
+.noinit         0x008002cd        0x0
+                0x008002cd                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x008002c1                PROVIDE (__noinit_end, .)
-                0x008002c1                _end = .
-                0x008002c1                PROVIDE (__heap_start, .)
+                0x008002cd                PROVIDE (__noinit_end, .)
+                0x008002cd                _end = .
+                0x008002cd                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -1555,6 +1557,7 @@ _exit                                             d:/arduino/codeblocks/bin/../l
 analogRead                                        D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
                                                   build\dm442_stepper.o
 analogReference                                   D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
+                                                  build\dm442_stepper.o
 analogWrite                                       D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
 analog_reference                                  D:\arduino\Projects\dm442_stepper\build\/core_promini328_16.a(wiring_analog.c.o)
 atol                                              d:/arduino/codeblocks/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(atol.o)
