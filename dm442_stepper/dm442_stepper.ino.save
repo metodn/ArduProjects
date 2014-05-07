@@ -80,13 +80,30 @@ boolean BUTPROCESS =0;
 
 void izpis_eeprom(){
     Serial.print( "[" );
-    Serial.print( EEPROM.read(1)+spdFACTOR );  Serial.print( "," );
-    Serial.print( EEPROM.read(2) );    Serial.print( "," );
+    Serial.print( spd );  Serial.print( "," );
+    Serial.print( EEPROM.read(1) );  Serial.print( "," );
+    Serial.print( EEPROM.read(2) );  Serial.print( "," );
     Serial.print( EEPROM.read(3) );
     Serial.print( "]\r" );
 
-}
+    spd           = (EEPROM.read(1)*255)+ EEPROM.read(2);
+    direction     = EEPROM.read(3);
+    //if (direction==FORWARD)  digitalWrite(PinDIR, HIGH);
+    //if (direction==BACKWARD)  digitalWrite(PinDIR, LOW);
+    digitalWrite(PinDIR, direction);
 
+}
+void vpis_eeprom(){
+    int del=spd/255;
+    int mod=spd%255;
+    EEPROM.write(1,del);
+    EEPROM.write(2,mod);
+    EEPROM.write(3,direction);
+   Serial.print( EEPROM.read(1) );  Serial.print( "%" ); 
+   Serial.print( EEPROM.read(2) );    Serial.print( "," ); 
+   Serial.print( EEPROM.read(3) );    Serial.print( "" ); 
+   
+}
 
 void setup() {
     // set the digital pin as output:
@@ -104,12 +121,7 @@ void setup() {
     sTime = millis();
     sKorakov = 0;
 
-    spd    = EEPROM.read(1)+spdFACTOR;
-    step_delay_us = EEPROM.read(2);
-    direction     = EEPROM.read(3);
-    if (direction==FORWARD)  digitalWrite(PinDIR, HIGH);
-    if (direction==BACKWARD)  digitalWrite(PinDIR, LOW);
-    digitalWrite(PinDIR, direction);
+
     izpis_eeprom();
 }
 //########################################################################################
@@ -254,24 +266,18 @@ void loop()
 
             if (content.compareTo("RIGHT") ==0  || content.compareTo("R") ==0  ){
                 Serial.print(" EE-READ-!! [");
-                spd    = EEPROM.read(1)+spdFACTOR;             //v eeprom pise od 1 do 255!!!!!!!
-                step_delay_us = EEPROM.read(2);
-                direction     = EEPROM.read(3);
-                if (direction==FORWARD)  digitalWrite(PinDIR, HIGH);
-                if (direction==BACKWARD)  digitalWrite(PinDIR, LOW);
                 izpis_eeprom();
-                //ms=1;    //aktiviraj potenciometer
+                ms=1;    //aktiviraj potenciometer
                 Serial.print("]\r");
-                 ms=!ms;
+                //ms=!ms;
             }
 
             if (content.compareTo("LEFT") ==0  || content.compareTo("L") ==0   || content.compareTo("W") ==0){
                 Serial.print(" EE-WRITE-!! [");
-                EEPROM.write(1,spd-spdFACTOR);
-                EEPROM.write(2,step_delay_us);
-                EEPROM.write(3,direction);
-                izpis_eeprom();
-                //ms=0;
+                vpis_eeprom();
+
+                //izpis_eeprom();
+                ms=0;
                 Serial.print("]\r");
             }
 
@@ -291,7 +297,7 @@ void loop()
 
             if (content.compareTo("U") ==0){    //DOWN
                 spd=spd+1*stepFACTOR;
-                if (spd >=1000 ) spd=1000;
+                if (spd >=6000 ) spd=6000;
                 Serial.print( char(12) );
                 Serial.print(spd);
                 Serial.print("\r");
@@ -368,9 +374,9 @@ void loop()
 
                 stepFACTOR=spd1*5;
                 Serial.print("\r Sped factor==>");
-                Serial.print( sensorReading);
+                Serial.print( stepFACTOR);
                 Serial.print("<");
-                Serial.print(stepFACTOR);
+               // Serial.print(stepFACTOR);
                 Serial.print(" \r");
                 timeOfLastEvent2 = currentMillis;  //update timer with last event
     }
