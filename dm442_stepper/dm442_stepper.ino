@@ -25,8 +25,8 @@ const int PinENA =  5;
 
 const int PinSW0 =  7;
 const int PinSW1 =  8;
-
-#define PinLED0   9
+bool PinLED0State =0;
+#define PinLED0   13             ///pin 9 ATI MASINA
 #define PinLED1   2
 
 unsigned long sTime = 0;
@@ -192,11 +192,17 @@ bool one_step_function ( int stepper, int dir, unsigned long step_delay, int _di
 
 void blink(int ino, int cnt, int wait){
 
-        for (int i=0; i < cnt; i++){
+unsigned long milsBlink = millis(); //delay replacement
+unsigned int blinker =1;
+
+    if (millis() - milsBlink > 50){
+
+        //for (int i=0; i < cnt; i++){
             digitalWrite (ino, HIGH);
-            delay(wait);
+            delay(10);
             digitalWrite (ino, LOW);
-            delay(wait);
+            milsBlink = millis();
+
           }
 }
 
@@ -234,7 +240,7 @@ void loop()
 {
     //Serial.print(".");
    unsigned long currentMillis = millis(); //delay replacement
-    digitalWrite(PinLED0,LOW);
+
 
 
     if (currentMillis - timeOfLastEvent3 > 20){
@@ -243,6 +249,7 @@ void loop()
             String content = "";
             //char* content ="";
             //char conte[100];
+
 
             char character;
 
@@ -262,7 +269,12 @@ void loop()
                 Serial.print(content);
                 //Serial.print("<");
                 //Serial.print("\r");
+
+                PinLED0State=!PinLED0State;
+            } else{
+                //digitalWrite(PinLED0,LOW);
             }
+                digitalWrite(PinLED0,PinLED0State);
 
             if (content.compareTo("RIGHT") ==0  || content.compareTo("R") ==0  ){
                 Serial.print(" EE-READ-!! [");
@@ -422,10 +434,10 @@ void loop()
 //    }
 
 //vsako sekundo na zaslon napisi podatke
-    if (currentMillis - timeOfLastEvent > 1001){
-
+    if (currentMillis - timeOfLastEvent > 1000){
+        digitalWrite(PinLED0,LOW);
        // unsigned long StartTimer = micros(); //START TIMER
-        digitalWrite(PinLED0,HIGH);
+
         //lKorakov =eKorakov;
         //eKorakov =korakov;
       // if ( millis()/1000
@@ -471,7 +483,7 @@ void loop()
         float obs = obseg(RKROG);  //premer v mm
         ///Serial.print(obs/400);  Serial.print("dozlina na 1 impilz v cm");
         float dol1imp=((obs/PULREV)*pulses*60)/10; /// NE VEM AKAJ JE TU /100
-        Serial.print( dol1imp,1 );  Serial.print("mm/mi ");  //Serial.print( obs );
+        Serial.print( dol1imp,0 );  Serial.print("mm/mi ");  //Serial.print( obs );
         Serial.print("\r");
 //OLD        Serial.print( (obs*st_obr_v_1_min)/10,1 );  Serial.print("cm/m#");       ///   dolzina JE obseg *stevilo obratov v 1 minuti (preracunano -nak  koliko porabi za 1 obrat)
         //unsigned long stobr= korakov/(eKorakov-lKorakov);    //stevliko obratov od zacetka
